@@ -1,4 +1,5 @@
 <script>
+    import '../app.css';  
     import Header from '../layout/Header.svelte';
 </script>
 
@@ -8,7 +9,7 @@
 
 <style>
 	:global(section) {
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 	:global(.justify-center, section)  {
         display: flex;
@@ -33,4 +34,11 @@
 		margin: 0;
 		padding: 0;
 	}
+
+    :global(nav) {
+        background-color: #4A148C !important;
+    }
+    :global(nav ul li a) {
+        color: #ffffff !important;
+    }
 </style>
