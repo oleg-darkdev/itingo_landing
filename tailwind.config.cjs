@@ -5,6 +5,11 @@ const config = {
 	],
 
 	theme: {
+		colors: {
+			viol: '#4A148C',
+			lightYellow: '#FFC800',
+			lightGray: '#DCDCDC'
+		},
 		extend: {}
 	},
 
