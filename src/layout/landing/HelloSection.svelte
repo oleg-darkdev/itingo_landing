@@ -3,7 +3,7 @@
 </script>
 
 
-<section class="mb-8">
+<!-- <section class="mb-8"> -->
 	<Card style="" class="mb-32" img="/images/landing/hello.svg" horizontal reverse={false}>
     <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-violDark dark:text-white">Jak <span class="mb-2 text-3xl font-black" >ITingo</span> ulatwia IT wolontariat</h5>
     <p class="mb-3 text-center font-normal text-viol dark:text-gray-400 leading-tight">
@@ -18,5 +18,5 @@
 		</slot>
 	</div>
 </Card>
-</section>
+<!-- </section> -->
 
