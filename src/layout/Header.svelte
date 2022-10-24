@@ -10,10 +10,10 @@
 
   <NavUl {hidden} >
     <NavLi href="/" active={true}>Strona główna</NavLi>
-    <NavLi href="#about">Dla NGO</NavLi>
-    <NavLi href="#about">Dla startupow</NavLi>
-    <NavLi href="#about">Dla biznesu</NavLi>
-    <NavLi href="#about">Dla IT wolontariutu</NavLi>
+    <NavLi href="#about">NGO</NavLi>
+    <NavLi href="#about">Startapam</NavLi>
+    <NavLi href="#about">Biznesu</NavLi>
+    <NavLi href="#about">IT wolontariutu</NavLi>
     <!-- <NavLi href="#steps">Find volunteer</NavLi> -->
     <NavLi href="#impact">Już pomogliśmy</NavLi> 
     <NavLi href="#contact">Nasza rodzina</NavLi>
@@ -22,7 +22,7 @@
   </NavUl>
  
     <div class="flex items-center md:order-2">
-    <Avatar id="avatar-menu" src="/images/oleg.png" />
+    <!-- <Avatar id="avatar-menu" src="/images/oleg.png" /> -->
     <NavHamburger on:click={toggle} class1="w-full md:flex md:w-auto md:order-1"/>
   </div>
 
