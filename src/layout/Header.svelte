@@ -4,20 +4,23 @@
 
 <Navbar class="bg-viol" let:hidden let:toggle>
   <NavBrand href="/">
-    <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo"/>
-    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+    <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="ITingo Logo"/>
+    <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">ITingo</span>
   </NavBrand>
 
   <NavUl {hidden} >
-    <NavLi href="/" active={true}>Home</NavLi>
-    <NavLi href="/about">About</NavLi>
-    <NavLi href="/services">Find volunteer</NavLi>
-    <NavLi href="/pricing">Our Impact</NavLi> 
-    <NavLi href="/contact">Our Family</NavLi>
-    <NavLi href="/contact">FAQ</NavLi>
-    <NavLi href="/contact">Contact</NavLi>
+    <NavLi href="/" active={true}>Strona główna</NavLi>
+    <NavLi href="#about">Dla NGO</NavLi>
+    <NavLi href="#about">Dla startupow</NavLi>
+    <NavLi href="#about">Dla biznesu</NavLi>
+    <NavLi href="#about">Dla IT wolontariutu</NavLi>
+    <!-- <NavLi href="#steps">Find volunteer</NavLi> -->
+    <NavLi href="#impact">Już pomogliśmy</NavLi> 
+    <NavLi href="#contact">Nasza rodzina</NavLi>
+    <NavLi href="#faq">FAQ</NavLi>
+    <NavLi href="#family">Kontakt</NavLi>
   </NavUl>
-
+ 
     <div class="flex items-center md:order-2">
     <Avatar id="avatar-menu" src="/images/oleg.png" />
     <NavHamburger on:click={toggle} class1="w-full md:flex md:w-auto md:order-1"/>

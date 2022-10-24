@@ -1,15 +1,17 @@
 <script>
     import '../app.css';  
     import Header from '../layout/Header.svelte';
+    import Footer from '../layout/Footer.svelte';
 </script>
 
 <Header />
 <slot />
-
+<Footer />
 
 <style>
 	:global(section) {
-		margin-bottom: 50px;
+		/* margin: 0 0 80px 0; */
+        /* padding: 50px 0 0 0; */
 	}
 	:global(.justify-center, section)  {
         display: flex;
