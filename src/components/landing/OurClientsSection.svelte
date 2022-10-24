@@ -38,9 +38,9 @@
 </script>
 
 <div class="w-full justify-center">
-	<div style="justify-content: space-between;" class="lg:w-10/12 sm:w-12/12 md:w-12/12 flex-wrap row ">
+	<div style="" class="pt-12 clients-wrap lg:w-10/12 sm:w-12/12 md:w-12/12 flex-wrap row ">
 	{#each clientTypes as client}
-	<div style="min-height: 410px; height: auto; max-height: 430px;" class="lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
+	<div style="min-height: 410px; height: auto; max-height: 430px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
 			<a href={client.link}>
 				<img class="p-8 rounded-t-lg" src={client.img} alt={client.alt} />
 			</a>
@@ -59,3 +59,19 @@
 	 {/each}
     </div>
 </div>
+
+
+<style>
+	@media (min-width: 1024px) {
+		.clients-wrap {
+			justify-content: space-between;
+		}
+	}
+
+	@media (min-device-width: 320px) and (max-device-width: 1024px) {
+		.clients-wrap {
+			justify-content: center;
+			align-items: center;
+		}
+	}
+</style>
