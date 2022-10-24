@@ -7,6 +7,7 @@ const config = {
 	theme: {
 		colors: {
 			viol: '#4A148C',
+			violDark: '#330066',
 			lightYellow: '#FFC800',
 			lightGray: '#DCDCDC'
 		},
