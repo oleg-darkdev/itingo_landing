@@ -1,4 +1,5 @@
 <script>
+	import { ButtonGroup, Button  } from "flowbite-svelte";
 	import HelloSection from '../layout/landing/HelloSection.svelte';
 	import ClientsSection from '../layout/landing/ClientsSection.svelte';
 	import StepsSection from '../layout/landing/StepsSection.svelte';
@@ -18,7 +19,12 @@
 	<h1 class="w-8/12 text-center text-7xl text-white font-black">Witamy w domu IT wolontariatu</h1>
 </section>
 
-<HelloSection />
+<HelloSection>
+	<ButtonGroup>
+		<Button outline size="lg" color="purple">Znajdź wolontariuszy</Button>
+		<Button size="lg" color="purple">Zostań wolontariuszem</Button>
+	</ButtonGroup>
+</HelloSection>
 
 <ClientsSection />
 
