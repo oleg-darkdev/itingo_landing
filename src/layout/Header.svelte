@@ -10,10 +10,10 @@
 
   <NavUl {hidden} >
     <NavLi href="/" active={true}>Strona główna</NavLi>
-    <NavLi href="#about">NGO</NavLi>
-    <NavLi href="#about">Startapam</NavLi>
-    <NavLi href="#about">Biznesu</NavLi>
-    <NavLi href="#about">IT wolontariutu</NavLi>
+    <NavLi href="/ngo">NGO</NavLi>
+    <NavLi href="/startups">Startapam</NavLi>
+    <NavLi href="/business">Biznesu</NavLi>
+    <NavLi href="/volounteers">IT wolontariutu</NavLi>
     <!-- <NavLi href="#steps">Find volunteer</NavLi> -->
     <NavLi href="#impact">Już pomogliśmy</NavLi> 
     <NavLi href="#contact">Nasza rodzina</NavLi>
