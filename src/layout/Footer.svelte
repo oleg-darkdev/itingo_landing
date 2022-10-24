@@ -1,5 +1,5 @@
 <script>
-  import { Footer, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon, FooterCopyright } from 'flowbite-svelte'
+
 </script>
 
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">
@@ -9,17 +9,17 @@
        
     <ul class="text-gray-300">
       <li class="mb-4">
-        <a href="/" class="hover:underline">FAQ
+        <a href="#faq" class="hover:underline">FAQ
         </a>
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="/" class="hover:underline">Nasza rodzina
+        <a href="#family" class="hover:underline">Nasza rodzina
         </a>
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="/" class="hover:underline">Już pomogliśmy 
+        <a href="#contact" class="hover:underline">Już pomogliśmy 
         </a>
       </li>
       <!--<FooterLink>--> 
@@ -47,7 +47,7 @@
       <!--<FooterLink>--> 
         
       <li class="mb-4">
-        <a href="/" class="hover:underline">Github
+        <a href="https://github.com/oleg-darkdev/itingo" class="hover:underline">Github
         </a>
       </li>
       <!--<FooterLink>--> 
@@ -81,22 +81,22 @@
     </h2> 
     <ul class="text-gray-300">
       <li class="mb-4">
-        <a href="/" class="hover:underline">Dla NGO
+        <a href="/ngo" class="hover:underline">Dla NGO
         </a>
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="/" class="hover:underline">Dla startupow
+        <a href="/startups" class="hover:underline">Dla startupow
         </a>
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="/" class="hover:underline">Dla biznesu
+        <a href="/business" class="hover:underline">Dla biznesu
         </a>
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="/" class="hover:underline">Dla IT wolontariutu
+        <a href="/volounteers" class="hover:underline">Dla IT wolontariutu
         </a>
       </li>
       <!--<FooterLink>--> 
