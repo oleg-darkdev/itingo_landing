@@ -14,10 +14,21 @@
     .clients {
 		min-height: 100vh;
 		height: auto;
-		background-image: url(/images/landing/bg/clients-bg.svg);
+		
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: auto;
 	}
 
+	@media (min-width: 1024px) {
+		.clients {
+			background-image: url(/images/landing/bg/clients-bg.svg);
+		}
+	}
+
+	@media (min-device-width: 320px) and (max-device-width: 1024px) {
+		.clients {
+			background-image: none;
+		}
+	}
 </style>
