@@ -15,16 +15,20 @@
 
 
 
-<section class="items-center title bg-lightYellow w-full mb-12">
-	<h1 class="w-8/12 text-center text-7xl text-white font-black">Witamy w domu IT wolontariatu</h1>
-</section>
-
-<HelloSection>
+<section class="banner items-center  w-full mb-12 flex flex-col justify-center">
+	<div style="min-height: 150px;" class="h-auto p-2 bg-viol lg:w-5/12 md:w-6/12 sm:w-8/12 flex rounded-xl justify-center">
+		<h1 class="w-full text-center lg:text-7xl md:text-6xl sm:text-5xl text-white font-black">Witamy w domu IT wolontariatu</h1>
+	</div>
+	<!-- куда её ? -->
+	<!-- <HelloSection>
 	<ButtonGroup>
 		<Button outline size="lg" color="purple">Znajdź wolontariuszy</Button>
 		<Button size="lg" color="purple">Zostań wolontariuszem</Button>
 	</ButtonGroup>
-</HelloSection>
+	</HelloSection> -->
+</section>
+
+
 
 <ClientsSection />
 
@@ -46,7 +50,14 @@
 	}
 
 
-
+	.banner {
+		min-height: 100vh;
+		height: auto;
+		background-image: url(/images/landing/bg/banner-bg.svg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto;
+	}
 
 
 
