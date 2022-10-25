@@ -4,7 +4,8 @@
 	export let typeWork;
 </script>
 
-<section style="background-position: {typeWork.align == 'start' ? 'right': 'left'}; background-image: url({typeWork.bgImage});" class="our-family justify-{typeWork.align} content-center pr-20" id="family">
+<!-- class:active={}  -->
+<section id={typeWork.anchor} style="background-position: {typeWork.align == 'start' ? 'right': 'left'}; background-image: url({typeWork.bgImage});" class="our-family justify-{typeWork.align} content-center pr-20" >
 	<div style="" class="lg:w-7/12 md:w-12/12 sm:w-12/12 bg-white flex justify-end items-center">
 		<div style="min-width: 320px;" class="flex flex-col items-center">
 			<h2 class=" m-8  text-6xl text-lightYellow font-bold ">{typeWork.title}</h2>
