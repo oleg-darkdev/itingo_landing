@@ -4,53 +4,7 @@
 
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">
 
-  <div>
-    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Dla NGO
-    </h2> 
-    <ul class="text-gray-300">
-      <li class="mb-4">
-        <a href="/ngo#volunteer" class="hover:underline">Znajdź IT wolontariusza
-        </a>
-      </li>
-      <!--<FooterLink>--> 
-      <li class="mb-4">
-        <a href="/ngo#faq " class="hover:underline">FAQ
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#design" class="hover:underline">Pomóc z graficami
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#projecting" class="hover:underline">Pomóc z projektowaniem stron
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#security" class="hover:underline">Pomóc z bezpieczeństwom IT
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#seo" class="hover:underline">Pomóc z Seo
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#server" class="hover:underline">Pomóc na serwerze
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#site" class="hover:underline">Pomóc z tworzeniem strony
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#social-media" class="hover:underline">Pomoc w zakresie mediów 
-        </a>
-      </li>
-      <!--<FooterLink>--> 
-
-      <!--<FooterLink>-->
-    </ul>
-    <!--<FooterLinkGroup>-->
-  </div> <div>
+ <div>
     <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Dla IT wolontariutu
     </h2> 
     <ul class="text-gray-300">
@@ -144,6 +98,53 @@
     </ul>
     <!--<FooterLinkGroup>-->
   </div>
+   <div>
+    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Dla NGO
+    </h2> 
+    <ul class="text-gray-300">
+      <li class="mb-4">
+        <a href="/ngo#volunteer" class="hover:underline">Znajdź IT wolontariusza
+        </a>
+      </li>
+      <!--<FooterLink>--> 
+      <li class="mb-4">
+        <a href="/ngo#faq " class="hover:underline">FAQ
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#design" class="hover:underline">Pomóc z graficami
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#projecting" class="hover:underline">Pomóc z projektowaniem stron
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#security" class="hover:underline">Pomóc z bezpieczeństwom IT
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#seo" class="hover:underline">Pomóc z Seo
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#server" class="hover:underline">Pomóc na serwerze
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#site" class="hover:underline">Pomóc z tworzeniem strony
+        </a>
+      </li>
+      <li class="mb-4">
+        <a href="/ngo#social-media" class="hover:underline">Pomoc w zakresie mediów 
+        </a>
+      </li>
+      <!--<FooterLink>--> 
+
+      <!--<FooterLink>-->
+    </ul>
+    <!--<FooterLinkGroup>-->
+  </div> 
     <div>
     <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Kontakt
     </h2> 
