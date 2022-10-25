@@ -1,10 +1,14 @@
 <script>
-
+	import SocialMedia from "../SocialMedia.svelte";
+	import MailContact from "../MailContact.svelte";
 </script>
 
 <section id="contact" class="pb-12 pt-20 contact bg-lightYellow flex items-center ">
-	<div style="height: 350px;" class="w-4/12 px-5 p-5 flex-col flex items-center shadow-md rounded-lg bg-white">
-		Kontakt
+	<div style="min-height: 350px;" class="lg:w-4/12  sm:max-w-max lg:p-5 sm:p-1 flex-col flex items-center shadow-md rounded-lg bg-viol">
+		<h2 class="w-full text-center text-5xl text-white font-black">Kontakt z nami</h2>
+
+		<SocialMedia />
+		<MailContact />
 	</div>
 
 </section>
