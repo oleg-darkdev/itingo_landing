@@ -7,6 +7,8 @@
 	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
 	import FaqSection from '../layout/landing/FaqSection.svelte';
 	import ContactSection from '../layout/landing/ContactSection.svelte';
+
+	import faqList from "../data/landing/landingFaqList";
 </script>
 
 <svelte:head>
@@ -38,7 +40,7 @@
 
 <OurFamilySection />
 
-<FaqSection />
+<FaqSection {faqList}/>
 
 <ContactSection />
 

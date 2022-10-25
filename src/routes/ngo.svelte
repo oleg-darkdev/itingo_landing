@@ -8,59 +8,10 @@
 	import ContactSection from '../layout/landing/ContactSection.svelte';
 
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
+	import workTypes from '../data/ngo/workTypes';
+	import faqList from '../data/ngo/ngoFaqList';
 
-
-	let typesWork = [
-		{
-			bgImage: '/images/ngo/bg/design-bg.svg',
-			title: 'Design',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'start'
-		},
-		{
-			bgImage: '/images/ngo/bg/projecting-bg.svg',
-			title: 'Projecting',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'end'
-		},
-		{
-			bgImage: '/images/ngo/bg/security-bg.svg',
-			title: 'Security',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'start'
-		},
-		{
-			bgImage: '/images/ngo/bg/seo-bg.svg',
-			title: 'Seo',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'end'
-		},
-		{
-			bgImage: '/images/ngo/bg/server-bg.svg',
-			title: 'Server',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'start'
-		},
-		{
-			bgImage: '/images/ngo/bg/site-bg.svg',
-			title: 'Site',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'end'
-		},
-		{
-			bgImage: '/images/ngo/bg/social-bg.svg',
-			title: 'Social Media',
-			description: ['', ''],
-			examples: ['', '', '', ''],
-			align: 'start'
-		}
-	]
+	
 </script>
 
 <svelte:head>
@@ -68,12 +19,12 @@
 </svelte:head>
 
 
-
+<a id="volunteer" ></a>
 <HelloSection>
 	<Button outline size="lg" color="purple">Znajdź wolontariuszy</Button>
 </HelloSection>
 
-{#each typesWork as typeWork}
+{#each workTypes as typeWork}
 	<TypesOfWorks {typeWork}/>
 {/each}
 
@@ -83,6 +34,7 @@
 
 <OurFamilySection />
 
-<FaqSection />
+<a id="faq" ></a>
+<FaqSection {faqList}/>
 
 <ContactSection />

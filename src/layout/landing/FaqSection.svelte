@@ -1,5 +1,7 @@
 <script>
     import Faq from '../../components/landing/Faq.svelte';
+	
+	export let faqList;
 </script>
 
 <section style="height: auto;" class="faq pb-12 pt-20 w-full items-center flex-col flex  " id="faq">
@@ -8,7 +10,7 @@
 	</div>
 	<div class="bg-viol  lg:w-6/12 md:w-8/12 sm:w-6/12 rounded  flex-col flex items-center ">
 		<div class="w-full px-5 p-5 shadow-md rounded-lg ">
-			<Faq />
+			<Faq {faqList}/>
 		</div>
 	</div>
 </section>
