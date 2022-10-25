@@ -1,5 +1,5 @@
 <script>
-    import Faq from '../../components/landing/Faq.svelte';
+    import Faq from '../components/landing/Faq.svelte';
 	
 	export let faqList;
 </script>
