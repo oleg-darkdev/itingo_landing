@@ -5,7 +5,7 @@
 		{
 			type: 'Dla startupow',
 			count: 0,
-			weHelp: 'We help target audiences and investments',
+			weHelp: 'Pomoc w dotarciu do grupy docelowej i wsparcie dla projektów open-source',
 			img: '/images/landing/clients/startups.svg',
 			link: '/',
 			alt: 'Startups image'
@@ -13,7 +13,7 @@
 		{
 			type: 'Dla biznesu',
 			count: 0,
-			weHelp: 'We help target audiences and investments',
+			weHelp: 'Pomoc w inwestycjach w trzecim sektorze i rekrutacja osób z doświadczeniem',
 			img: '/images/landing/clients/business.svg',
 			link: '/',
 			alt: 'Business image'
@@ -21,7 +21,7 @@
 		{
 			type: 'Dla IT wolontariutu',
 			count: 0,
-			weHelp: 'We help volunteers ................................................',
+			weHelp: 'Potwierdzenie udziału w projektach, pomoc w następnym zatrudnieniu w IT',
 			img: '/images/landing/clients/volunteers.svg',
 			link: '/',
 			alt: 'Volunteers image'
@@ -29,7 +29,7 @@
 		{
 			type: 'Dla NGO',
 			count: 0,
-			weHelp: 'We help ngo ........................................................................',
+			weHelp: 'Możliwość uzyskania wsparcia i poradnictwa w kwestiach IT',
 			img: '/images/landing/clients/ngo.svg',
 			link: '/',
 			alt: 'Ngo image'
@@ -37,8 +37,9 @@
 	]
 </script>
 
+
 <div class="w-full justify-center">
-	<div style="" class="pt-12 clients-wrap lg:w-10/12 sm:w-12/12 md:w-12/12 flex-wrap row ">
+	<div style="" class="pt-12 clients-wrap lg:w-10/12 w-12/12 md:w-12/12 flex-wrap row justify-center">
 	{#each clientTypes as client}
 	<div style="min-height: 410px; height: auto; max-height: 430px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
 			<a href={client.link}>
@@ -51,7 +52,7 @@
 			</h5>
 			</a>
 			<div class="flex justify-between items-center">
-			<span class="text-3xl font-bold text-viol dark:text-white">{client.type}</span>
+			<span class="m-2 text-3xl font-bold text-viol dark:text-white">{client.type}</span>
 			<Button color="purple" href={client.link}>Rejestracja</Button>
 			</div>
 		</div>
