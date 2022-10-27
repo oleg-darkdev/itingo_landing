@@ -1,6 +1,7 @@
 <script>
-	import SocialMedia from "../SocialMedia.svelte";
-	import MailContact from "../MailContact.svelte";
+	import SocialMedia from "../contact/SocialMedia.svelte";
+	import MailContact from "../contact/MailContact.svelte";
+	import Coordinator from "../contact/Coordinator.svelte";
 </script>
 
 <section id="contact" class="pb-12 pt-20 contact bg-lightYellow flex items-center ">
@@ -9,6 +10,7 @@
 
 		<SocialMedia />
 		<MailContact />
+		<Coordinator />
 	</div>
 
 </section>
