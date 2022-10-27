@@ -1,0 +1,55 @@
+<script>
+
+</script>
+
+<div class="flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700">
+  <img class="rounded-t-lg" src="/images/family/coordinator.png" alt=""> 
+  <div class="p-6 rounded bg-lightYellow">
+    <h5 class="mb-1 text-2xl font-bold text-center tracking-tight text-viol">
+      Koordynator projektu
+    </h5> 
+    <p class="mb-3 text-4xl font-black text-center text-viol">
+      Oleg Medvedev
+    </p>
+
+    <div style="" class="border-viol wrap-social-container mb-4 flex-col items-center justify-center">
+    <div class="social-coordinator-container">
+        <a href="/"><i class="icon-facebook fb "></i></a>
+        <a href="/"><i class="icon-twitter tw "></i></a>
+        <a href="/"><i class="icon-linkedin ln "></i></a>
+        <a href="/"><i class="icon-github gh "></i></a>
+    </div>
+    <h2 class="w-full text-center text-3xl text-viol font-black m-0"><i class="icon-hand-up text-viol"></i> w mediach <i class="icon-hand-up text-viol"></i></h2>
+</div>
+
+  </div>
+</div>
+
+
+
+<style>
+    	
+.social-coordinator-container {
+  font-size: 2.5em;
+  height: 60px;
+  max-width: 360px;
+}
+
+
+.fb {
+  color: #ea4c89;
+}
+
+.tw {
+  color: #09AEEC;
+}
+
+
+.ln {
+  color: #00A5E6;
+}
+
+.gh {
+  color: #4A148C;
+}
+</style>
