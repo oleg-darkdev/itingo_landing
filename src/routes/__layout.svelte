@@ -35,6 +35,7 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
+        
 	}
 
     :global(nav) {
@@ -43,4 +44,14 @@
     :global(nav ul li a) {
         color: #ffffff !important;
     }
+
+    :global(.text-stantley) {
+		font-family: 'Stanley';
+	}
+
+	@font-face { 
+		font-family: 'Stanley';  
+		font-style: normal; 
+		src: url(/fonts/stanley.ttf);
+		} 
 </style>
