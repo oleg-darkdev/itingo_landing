@@ -5,10 +5,11 @@
 </script>
 
 <section style="height: auto;" class="faq pb-12 pt-20 w-full items-center flex-col flex  " id="faq">
-	<div style="" class="empty-block w-full h-auto">
+
+	<div  class="empty-block w-full">
 
 	</div>
-	<div class="bg-viol  lg:w-6/12 md:w-8/12 sm:w-6/12 rounded  flex-col flex items-center ">
+	<div class="bg-viol  lg:w-6/12 md:w-10/12 sm:w-12/12 rounded  flex-col flex items-center ">
 		<div class="w-full px-5 p-5 shadow-md rounded-lg ">
 			<Faq {faqList}/>
 		</div>
@@ -29,13 +30,16 @@
 	.empty-block {
 		max-height: 70vh;
 		margin-bottom: -100px;
+		height: 60vh;
 	}
 
 	@media (min-device-width: 320px) and (max-device-width: 1024px) {
 		.empty-block {
-			max-height: 70vh;
-			margin-bottom: 20px;
+			height: 35vh;
 		}
-
+		.faq {
+			background-size: 100%; 
+			margin-bottom: 10px;
+		}
 	}
 </style>
