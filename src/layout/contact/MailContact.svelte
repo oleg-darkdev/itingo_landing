@@ -1,4 +1,4 @@
-<div class="wrap-social-container mb-4 flex-col items-center justify-center">
+<div class="wrap-social-container mb-8 flex-col items-center justify-center">
     <div class="email-animation-container">
         <i class="icon-envelope gh email-icon"></i>
     </div>
