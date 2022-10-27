@@ -10,7 +10,7 @@
     .not-found {
 		min-height: 100vh;
 		height: auto;
-		background-image: url(/images/landing/404-bg.svg);
+		background-image: url(/images/404-bg.svg);
 		background-repeat: no-repeat;
 		background-size: 90%; 
 		background-attachment: fixed;
