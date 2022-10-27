@@ -78,7 +78,7 @@
       </li>
       <!--<FooterLink>--> 
       <li class="mb-4">
-        <a href="#family" class="hover:underline">Nasza rodzina
+        <a href="/family" class="hover:underline">Nasza rodzina
         </a>
       </li>
       <!--<FooterLink>--> 
@@ -175,6 +175,13 @@
   </div> 
 </div> 
 <div class="py-6 px-4 bg-violDark md:flex md:items-center md:justify-between">
+    <div class="flex flex-row">
+       <img src="/images/logo.svg" class="mt-1 h-6 sm:h-9" alt="ITingo Logo"/>
+        <span class="self-center whitespace-nowrap lg:text-5xl md:text-4xl  text-3xl   text-lightYellow text-stantley">
+          ITingo
+       </span>
+    
+    </div>
   <span class="text-sm text-gray-300 sm:text-center">© 2022 
     <a href="/" class="hover:underline">44Hackerspace™
     </a>
