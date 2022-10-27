@@ -1,22 +1,6 @@
 <script>
-
-  const dataSteps = [
-    {
-      step: 1,
-      title: 'Join',
-      description: `We'll help you translate your dreams into reality. You tell us what you want to achieve, and we’ll help you articulate a project that will attract the right volunteers. We’re here to make life a little easier for you!`
-    },
-    {
-      step: 2,
-      title: 'Post',
-      description: 'Select a Project Blueprint (a pre-scoped project brief that saves you time) to get started, make the necessary edits, and let the good times (and applications) roll! Interview your skilled volunteer applicants as needed so you can confidently select the right volunteer for the job.'
-    },
-    {
-      step: 3,
-      title: 'Collaborate',
-      description: 'Communicate with your skilled volunteer through the Vollie platform, send feedback and comments, and ultimately end up with something you love. You can FINALLY cross that annoying little thing off your to-do list!'
-    },
-  ]
+  import dataSteps from '../../data/landing/stepsFoundVol';
+  
 </script>
 
 
@@ -30,9 +14,11 @@
           <h3 class="flex items-center mb-1 text-lg font-semibold text-viol dark:text-white">{step.title} </h3>
           <!-- <span class="bg-viol text-lightYellow text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Latest</span> -->
           <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-violDark">Step {step.step} </time>
-          <p class="mb-4 text-base font-normal text-violDark dark:text-gray-400">{step.description}</p>
+          {#each step.description as description}
+            <p class="m-2 text-base font-normal text-violDark dark:text-gray-400">{description}</p>
           <!-- <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-viol bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a> -->
-      </li>
+          {/each}
+        </li>
     {/each}
   </ol>
 </div>
