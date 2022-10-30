@@ -55,7 +55,9 @@ class Org {
 			workType: {
 				frontend: {
 					create: false,
-					update: false
+					update: false,
+					domain: false,
+					other: false
 				},
 				backend: {
 					routing: false,
@@ -69,10 +71,25 @@ class Org {
 					emailTemplate: false
 				},
 				consulting: {
+					analyseConsulting: false,
+					hacking: false
+				},
+				security: {
 					tools: false,
 					site: false,
 					other: false
 				},
+				seo: {
+					analyseConsulting: false,
+					write: false,
+					update: false
+				},
+				projecting: {
+					uxUi: false,
+					brandBook: false,
+					update: false
+				},
+
 				other: ['', ''],
 				logos: ['', ''],
 				images: ['', '']
