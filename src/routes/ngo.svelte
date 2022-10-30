@@ -30,8 +30,6 @@
 	</HelloSection>
 </section>
 
-
-
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork}/>
 {/each}
