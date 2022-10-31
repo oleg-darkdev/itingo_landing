@@ -6,8 +6,8 @@
 
 
 
-<div class="flex justify-end mb-6 ">
-  <ol class="relative border-l w-8/12 border-viol dark:border-gray-700">    
+<div class="flex justify-end mb-6">
+  <ol class="relative border-l lg:w-8/12 lg:w-10/12 w-11/12 border-viol dark:border-gray-700">    
     {#each dataAboutService as step}              
       <li class="mb-2 ml-6">            
           <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-viol rounded-full ring-8 ring-white dark:ring-viol dark:bg-blue-900">
