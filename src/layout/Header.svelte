@@ -4,7 +4,7 @@
 
 <Navbar class="bg-viol" let:hidden let:toggle>
   <NavBrand href="/">
-    <img src="/images/logo.svg" class=" h-6 sm:h-9" alt="ITingo Logo"/>
+    <img src="/images/logo.svg" class=" h-6 " alt="ITingo Logo"/>
     <span class="self-center whitespace-nowrap lg:text-5xl md:text-4xl  text-3xl   text-lightYellow text-stantley">
       ITingo
     </span>

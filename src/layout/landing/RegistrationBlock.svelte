@@ -3,7 +3,7 @@
 </script>
 
 <div class="w-full flex justify-center ">
-<Card style="" class="mb-32 " img="/images/landing/registration.svg" horizontal reverse={false}>
+<Card style="" class="mb-32 " img="/images/landing/registration.svg" horizontal >
     <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-violDark dark:text-white">Łatwy start do projektów</h5>
     <p class="mb-3 font-normal text-center  text-viol dark:text-gray-400 leading-tight">
       ITingo to platforma internetowa, która łączy IT, wolontariuszy, organizacje pozarządowe, biznes i start-upy.

@@ -1,4 +1,4 @@
-<div class="wrap-social-container mb-4 flex-col items-center justify-center">
+<div class="wrap-social-container mb-8 flex-col items-center justify-center">
     <div class="social-animation-container">
         <a href="/"><i class="icon-facebook fb soc-icon"></i></a>
         

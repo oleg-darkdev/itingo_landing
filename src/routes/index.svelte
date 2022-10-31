@@ -18,9 +18,9 @@
 
 
 <section class="banner items-center  w-full  flex flex-col justify-center">
-	<div style="" class="h-auto p-2 bg-viol lg:w-5/12 md:w-6/12  w-12/12  flex flex-col rounded-xl justify-center">
-		<h1 class="w-full text-center lg:text-7xl md:text-6xl text-5xl text-white font-black mb-8">
-			<span class="text-lightYellow text-stantley">ITingo</span>
+	<div style="" class="h-auto p-2 bg-viol lg:w-5/12 md:w-6/12  w-12/12  flex flex-col lg:rounded-xl md:rounded-xl justify-center">
+		<h1 class="w-full text-center lg:text-7xl md:text-6xl text-4xl text-white font-black mb-8">
+			<span style="" class="text-logo-letter-spacing text-lightYellow text-stantley">ITingo</span>
 			 - dom IT wolontariatu</h1>
 		<SocialMedia />
 	</div>
@@ -71,6 +71,10 @@
 			margin-bottom: 10px;
 			background-size: cover;
 			background-position: right;
+		}
+
+		.text-logo-letter-spacing {
+			letter-spacing: .3rem;
 		}
 	}
 
