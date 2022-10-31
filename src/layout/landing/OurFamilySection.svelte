@@ -3,8 +3,8 @@
 </script>
 
 
-<section class="our-family lg:justify-start md:justify-start justify-center content-center" id="family">
-	<div style="" class="text-wrap lg:w-5/12 md:w-12/12 w-12/12  flex justify-end items-center">
+<section class="our-family lg:justify-start md:justify-start sm:justify-center content-center" id="family">
+	<div style="" class="text-wrap lg:w-5/12 md:w-12/12 w-12/12  flex justify-end items-center bg-white">
 		<div style="min-width: 320px;" class="pt-6 pb-12 text-block max-w-max flex flex-col items-center rounded-xl">
 			<h2 class=" m-8  text-6xl text-lightYellow font-bold ">NASZA <br> NON-PROFIT <br> RODZINA</h2>
 			<Button href="/family" size="xl" class="w-10/12" color="purple">Czytać więcej</Button>
