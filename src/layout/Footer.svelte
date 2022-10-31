@@ -56,7 +56,7 @@
     </h2> 
     <ul class="text-gray-300">
       <li class="mb-4">
-        <a href="#faq" class="hover:underline">FAQ
+        <a href="/faq" class="hover:underline">FAQ
         </a>
       </li>
       <li class="mb-4">
