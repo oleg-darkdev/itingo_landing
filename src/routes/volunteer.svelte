@@ -17,7 +17,7 @@
 	<title>ITingo dla wolontariusze</title>
 </svelte:head>
 
-<BannerSection />
+<BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>
 
 <a id="start" ></a>
 <StepsSection text='Zostań wolontariuszem i rozpocznij swoją podróż w IT' {dataForTimeline}>
