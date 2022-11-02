@@ -10,7 +10,14 @@
 		<h2 class="w-full mt-8 mb-8 text-center lg:text-6xl md:text-6xl text-3xl  text-viol font-bold ">{text}</h2>
 		<Timeline {dataForTimeline}/>
 	</div>
-	<slot name="block">
+	<div  data-aos="flip-left"
+		data-aos-delay="100"
+		data-aos-duration="1000" 
+		data-aos-once="false"
+		data-aos-mirror="true">
+		<slot name="block">
 		
-	</slot>
+		</slot>
+	</div>
+
 </section>

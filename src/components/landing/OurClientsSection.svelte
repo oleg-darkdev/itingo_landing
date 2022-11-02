@@ -8,7 +8,8 @@
 			weHelp: 'Pomoc w dotarciu do grupy docelowej i wsparcie dla projektów open-source',
 			img: '/images/landing/clients/startups.svg',
 			link: '/',
-			alt: 'Startups image'
+			alt: 'Startups image',
+			animation: 'left'
 		},
 		{
 			type: 'Dla biznesu',
@@ -16,7 +17,8 @@
 			weHelp: 'Pomoc w inwestycjach w trzecim sektorze i rekrutacja osób z doświadczeniem',
 			img: '/images/landing/clients/business.svg',
 			link: '/',
-			alt: 'Business image'
+			alt: 'Business image',
+			animation: 'right'
 		},
 		{
 			type: 'Dla IT wolontariutu',
@@ -24,7 +26,8 @@
 			weHelp: 'Potwierdzenie udziału w projektach, pomoc w następnym zatrudnieniu w IT',
 			img: '/images/landing/clients/volunteers.svg',
 			link: '/',
-			alt: 'Volunteers image'
+			alt: 'Volunteers image',
+			animation: 'left'
 		},
 		{
 			type: 'Dla NGO',
@@ -32,7 +35,8 @@
 			weHelp: 'Możliwość uzyskania wsparcia i poradnictwa w kwestiach IT',
 			img: '/images/landing/clients/ngo.svg',
 			link: '/',
-			alt: 'Ngo image'
+			alt: 'Ngo image',
+			animation: 'right'
 		},
 	]
 </script>
@@ -41,7 +45,13 @@
 <div class="w-full justify-center">
 	<div style="" class="pt-12 clients-wrap lg:w-10/12 w-12/12 md:w-12/12 flex-wrap row justify-center">
 	{#each clientTypes as client}
-	<div style="min-height: 410px; height: auto; max-height: 430px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
+	<div    
+		data-aos="fade-{client.animation}"
+		data-aos-delay="100"
+		data-aos-duration="1000" 
+		data-aos-once="false"
+		data-aos-mirror="true"
+		style="min-height: 410px; height: auto; max-height: 430px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
 			<a href={client.link}>
 				<img class="p-8 rounded-t-lg" src={client.img} alt={client.alt} />
 			</a>

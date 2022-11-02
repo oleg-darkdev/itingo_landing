@@ -2,6 +2,12 @@
     import '../app.css';  
     import Header from '../layout/Header.svelte';
     import Footer from '../layout/Footer.svelte';
+	import 'aos/dist/aos.css';
+	import AOS from 'aos';
+	import { onMount } from 'svelte';
+	onMount(() => {
+		AOS.init();
+	});
 
 
 </script>
@@ -38,7 +44,13 @@
 		margin: 0;
 		padding: 0;
         scroll-behavior: smooth;
+		-ms-overflow-style: none;  /* IE and Edge */
+  		scrollbar-width: none;  /* Firefox */
 	}
+	:global(body::-webkit-scrollbar) {
+		display: none; /* Chrome, Safari and Opera  */
+	}
+
     :global(.banner) {
 		min-height: 100vh;
 		height: auto;

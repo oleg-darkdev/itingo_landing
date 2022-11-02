@@ -2,7 +2,12 @@
 
 </script>
 
-<div class="flex max-w-sm flex-col  dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg  dark:border-gray-700">
+<div data-aos="flip-up"
+		data-aos-delay="100"
+		data-aos-duration="1000" 
+		data-aos-once="false"
+		data-aos-mirror="true"
+     class="flex max-w-sm flex-col  dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg  dark:border-gray-700">
   <img class="rounded-t-lg" src="/images/family/coordinator.png" alt=""> 
   <div class="p-6 rounded bg-lightYellow">
     <h5 class="mb-1 text-2xl font-bold text-center tracking-tight text-viol">
