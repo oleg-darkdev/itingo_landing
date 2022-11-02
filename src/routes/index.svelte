@@ -17,11 +17,7 @@
 	<title>ITingo</title>
 </svelte:head>
 
-
-
-
 <BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>
-
 
 <ClientsSection />
 
