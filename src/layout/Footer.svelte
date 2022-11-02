@@ -5,157 +5,202 @@
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">
 
  <div>
-    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Dla IT wolontariutu
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Dla IT wolontariutu
     </h2> 
     <ul class="text-gray-300">
-      <li class="mb-4">
-        <a href="/volunteer#start" class="hover:underline">Zostań IT wolontariuszem
-        </a>
-      </li>
-      
-      <li class="mb-4">
-        <a href="/volunteer#faq " class="hover:underline">FAQ
-        </a>
-      </li>
-      <li class="mb-4">
+            <li class="mb-3">
         <a href="/volunteer#work" class="hover:underline">Rodzaje prac
         </a>
       </li>
-      <li class="mb-4">
+     <li class="mb-3">
+        <a href="/volunteer#faq " class="hover:underline">FAQ wolontariutu
+        </a>
+      </li>
+      <li class="mb-3">
+        <a href="/volunteer#start" class="hover:underline">Zostań IT wolontariuszem
+        </a>
+      </li>
+      </ul> 
+ 
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Benefity dla wolontariuszy
+    </h2> 
+<ul class="text-gray-300">
+      <li class="mb-3">
         <a href="/volunteer#mentoring" class="hover:underline">Pomoc dla początkujących w IT & Mentoring 
         </a>
       </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/volunteer#letter" class="hover:underline">Pomoc w zatrudnieniu
         </a>
       </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/volunteer#schedule" class="hover:underline">Wolny harmonogram udziału
         </a>
       </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/volunteer#technology" class="hover:underline">Swoboda wyboru technologii dla projektów
         </a>
       </li>
-      
-    </ul>
+   </ul>   
+   
     
   </div> 
   <div>
-    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Wspieramy wsperajiencych
+    <h2 class="mt-8 mb-1text-sm font-semibold uppercase text-lightYellow">Wspieramy wsperajiencych
     </h2> 
     <ul class="text-gray-300">
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/faq" class="hover:underline">FAQ
         </a>
       </li>
-      <li class="mb-4">
+        <li class="mb-3">
+              <a href="/family" class="hover:underline">Nasza rodzina
+              </a>
+            </li>
+            
+            <li class="mb-3">
+              <a href="#impact" class="hover:underline">Już pomogliśmy 
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#" class="hover:underline">Recenzje o nas
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="#contact" class="hover:underline">Kontakt
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="" class="hover:underline">Materiały do pobrania
+              </a>
+            </li>
+    </ul>
+
+
+
+      <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Dla kogo pracujemy
+    </h2> 
+<ul class="text-gray-300">    
+      <li class="mb-3">
+        <a href="/startups" class="hover:underline">Dla startupow
+        </a>
+      </li>
+            <li class="mb-3">
         <a href="/ngo" class="hover:underline"> Dla NGO
         </a>
       </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/business" class="hover:underline">Dla biznesu
         </a>
       </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/volunteer" class="hover:underline">Dla IT wolontariutu
         </a>
       </li>
       
-      <li class="mb-4">
-        <a href="/startups" class="hover:underline">Dla startupow
-        </a>
-      </li>
-      
-      <li class="mb-4">
-        <a href="/family" class="hover:underline">Nasza rodzina
-        </a>
-      </li>
-      
-      <li class="mb-4">
-        <a href="#contact" class="hover:underline">Już pomogliśmy 
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="#contact" class="hover:underline">Recenzje o nas
-        </a>
-      </li>
-      
-
-      
-
-      
-    </ul>
     
   </div>
    <div>
-    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Dla NGO
+    <h2 class="mt-8 mb-1text-sm font-semibold uppercase text-lightYellow">Dla NGO
     </h2> 
     <ul class="text-gray-300">
-      <li class="mb-4">
+      <li class="mb-3">
+        <a href="/ngo#faq " class="hover:underline">FAQ dla ngo
+        </a>
+      </li>
+        <li class="mb-3">
+          <!-- google form -->
+        <a href="" class="hover:underline">Zgłoś projekt
+        </a>
+      </li>
+      <li class="mb-3">
         <a href="/ngo#volunteer" class="hover:underline">Znajdź IT wolontariusza
         </a>
       </li>
+
       
-      <li class="mb-4">
-        <a href="/ngo#faq " class="hover:underline">FAQ
-        </a>
-      </li>
-      <li class="mb-4">
+    </ul>  
+
+
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Pomoc z IT: projektowanie
+    </h2> 
+    <ul class="text-gray-300">
+      <li class="mb-3">
         <a href="/ngo#design" class="hover:underline">Pomóc z graficami
         </a>
       </li>
-      <li class="mb-4">
-        <a href="/ngo#projecting" class="hover:underline">Pomóc z projektowaniem stron
+      <li class="mb-3">
+        <a href="/ngo#design" class="hover:underline">Wideo promocyjne
         </a>
       </li>
-      <li class="mb-4">
-        <a href="/ngo#security" class="hover:underline">Pomóc z bezpieczeństwom IT
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#seo" class="hover:underline">Pomóc z Seo
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#server" class="hover:underline">Pomóc na serwerze
-        </a>
-      </li>
-      <li class="mb-4">
-        <a href="/ngo#site" class="hover:underline">Pomóc z tworzeniem strony
-        </a>
-      </li>
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/ngo#social-media" class="hover:underline">Pomoc w zakresie mediów 
         </a>
       </li>
+      <li class="mb-3">
+        <a href="/ngo#projecting" class="hover:underline">Pomóc z projektowaniem stron
+        </a>
+      </li>
+    </ul>
+
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Pomoc z IT: Po stronie klienta
+    </h2> 
+    <ul class="text-gray-300">
+      <li class="mb-3">
+        <a href="/ngo#site" class="hover:underline">Pomóc z tworzeniem strony
+        </a>
+      </li>
+
+      <li class="mb-3">
+        <a href="/ngo#seo" class="hover:underline">Pomóc z Seo
+        </a>
+      </li>
+    </ul>
+
+
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Pomoc z IT: Po stronie serwera
+    </h2> 
+    <ul class="text-gray-300">
+
+    <li class="mb-3">
+        <a href="/ngo#security" class="hover:underline">IT bezpieczeństwo
+        </a>
+      </li>
+      <li class="mb-3">
+        <a href="/ngo#design" class="hover:underline">Serwis komputerowy
+        </a>
+      </li>
+      <li class="mb-3">
+        <a href="/ngo#server" class="hover:underline">Pomóc na serwerze
+        </a>
+      </li>
+      </ul>  
       
 
-      
-    </ul>
+   
     
   </div> 
     <div>
-    <h2 class="mb-6 text-sm font-semibold uppercase text-gray-400">Kontakt
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Kontakt
     </h2> 
     <ul class="text-gray-300">
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/" class="hover:underline">Twitter
         </a>
       </li>
       
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/" class="hover:underline">Facebook
         </a>
       </li>
       
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="/" class="hover:underline">Instagram
         </a>
       </li>
       
         
-      <li class="mb-4">
+      <li class="mb-3">
         <a href="https://github.com/oleg-darkdev/itingo" class="hover:underline">Github
         </a>
       </li>
@@ -179,13 +224,13 @@
   </span>
   <!--<FooterCopyright>--> 
   <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
-    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-gray-400 hover:text-white">
+    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-lightYellow hover:text-white">
     </a>
     <!--<FooterIcon>--> 
-    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-gray-400 hover:text-white">
+    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-lightYellow hover:text-white">
     </a>
     <!--<FooterIcon>--> 
-    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-gray-400 hover:text-white">
+    <a href="/" aria-label="" class="text-gray-500 hover:text-gray-900 dark:hover:text-white text-lightYellow hover:text-white">
     </a>
     <!--<FooterIcon>-->
   </div>
