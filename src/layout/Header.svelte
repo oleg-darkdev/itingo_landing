@@ -1,5 +1,5 @@
 <script>
-  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Avatar, Dropdown, DropdownItem, DropdownHeader, DropdownDivider } from 'flowbite-svelte'
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Avatar, Dropdown, DropdownItem, DropdownHeader, DropdownDivider, ButtonGroup, Button } from 'flowbite-svelte'
 </script>
 
 <Navbar class="bg-viol" let:hidden let:toggle>
@@ -27,7 +27,12 @@
     <!-- <Avatar id="avatar-menu" src="/images/oleg.png" /> -->
     <NavHamburger on:click={toggle} class1="w-full md:flex md:w-auto md:order-1"/>
   </div>
-
+  <div class="flex items-center md:order-2">
+    <ButtonGroup>
+      <Button href='/login' outline color="yellow" size="md">Sign In</Button>
+      <Button href='/signup' size="md" color="yellow">Sign up</Button>
+    </ButtonGroup>
+  </div>
           <!-- <div class="flex items-center md:order-2">
     <Avatar id="avatar-menu" src="/images/oleg.png" />
     <NavHamburger on:click={toggle} class1="w-full md:flex md:w-auto md:order-1"/>
