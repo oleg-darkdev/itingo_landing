@@ -1,17 +1,14 @@
 <script>
-	import { Button  } from "flowbite-svelte";
-	import SocialMedia from "../layout/contact/SocialMedia.svelte";
-	import HelloSection from '../layout/landing/HelloSection.svelte';
+	import BannerSection from "../layout/BannerSection.svelte";
 	import StepsSection from '../layout/landing/StepsSection.svelte';
 	import ImpactSection from '../layout/landing/ImpactSection.svelte';
 	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
-	import ContactSection from '../layout/landing/ContactSection.svelte';
-
+	import ContactSection from '../layout/ContactSection.svelte';
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
 	import workTypes from '../data/ngo/workTypes';
 	import faqList from '../data/ngo/ngoFaqList';
-
+	import dataForTimeline from '../data/ngo/dataForTimeline';
 	
 </script>
 
@@ -19,24 +16,25 @@
 	<title>ITingo dla NGO</title>
 </svelte:head>
 
-<section class="banner items-center  w-full  flex flex-col justify-center">
-	<div style="" class="h-auto mb-20 p-2 bg-viol lg:w-5/12 md:w-6/12  sm:w-10/12  flex flex-col rounded-xl justify-center">
-		<h1 class="w-full text-center lg:text-7xl md:text-6xl text-5xl text-white font-black mb-8"><span class="text-lightYellow">ITingo</span> - dom IT wolontariatu</h1>
-		<SocialMedia />
-	</div>
-	<a id="volunteer" ></a>
-	<HelloSection>
-		<Button outline size="lg" color="purple">Znajdź wolontariuszy</Button>
-	</HelloSection>
+<BannerSection />
+
+<ImpactSection />
+
+<StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
+	<!-- <svelte:fragment slot="block">
+
+	</svelte:fragment> -->
+</StepsSection>
+
+<section style="background-image: url('/images/ngo/work_banner-bg.svg');" class="banner items-center  w-full  flex flex-col justify-center">
+<!--  add blocks inside -->
 </section>
 
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork}/>
 {/each}
 
-<StepsSection />
 
-<ImpactSection />
 
 <OurFamilySection />
 
@@ -47,14 +45,14 @@
 
 
 <style>
+	
+	@media (min-device-width: 320px) and (max-device-width: 1024px) {
 		.banner {
-		min-height: 130vh;
-		height: auto;
-		background-image: url(/images/landing/bg/banner-bg.svg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: auto;
-		background-attachment: fixed;
+			background-size: 100%; 
+			margin-bottom: 10px;
+			height: auto;
+			background-size: cover;
+		}
 	}
 
 </style>
