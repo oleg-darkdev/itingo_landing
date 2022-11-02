@@ -7,7 +7,7 @@
 
 let typesWork = [
 	{
-		bgImage: '/images/ngo/bg/design-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/design-bg.svg',
 		title: 'Design',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -55,7 +55,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/projecting-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/projecting-bg.svg',
 		title: 'Projecting',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -81,7 +81,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/security-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/security-bg.svg',
 		title: 'Security',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -105,7 +105,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/seo-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/seo-bg.svg',
 		title: 'Seo',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -129,7 +129,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/server-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/server-bg.svg',
 		title: 'Server',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -160,7 +160,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/site-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/site-bg.svg',
 		title: 'Website',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -198,12 +198,74 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/bg/social-bg.svg',
+		bgImage: '/images/ngo/type_works_bg/social-bg.svg',
 		title: 'Social Media',
 		description: ['', ''],
 		examples: ['', '', '', ''],
 		align: 'start',
 		anchor: 'media',
+		dataAboutService: [
+			{
+				title: 'Strategy',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			},
+			{
+				title: 'Consulting',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			},
+			{
+				title: 'Design',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			}
+		]
+	},
+	{
+		bgImage: '/images/ngo/type_works_bg/computers-bg.svg',
+		title: 'Serwis komputerowy',
+		description: ['', ''],
+		examples: ['', '', '', ''],
+		align: 'end',
+		anchor: 'computers',
+		dataAboutService: [
+			{
+				title: 'Strategy',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			},
+			{
+				title: 'Consulting',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			},
+			{
+				title: 'Design',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			}
+		]
+	},
+	{
+		bgImage: '/images/ngo/type_works_bg/video-bg.svg',
+		title: 'Wideo promocyjne',
+		description: ['', ''],
+		examples: ['', '', '', ''],
+		align: 'start',
+		anchor: 'video',
 		dataAboutService: [
 			{
 				title: 'Strategy',
