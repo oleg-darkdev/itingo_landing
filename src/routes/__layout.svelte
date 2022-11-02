@@ -2,6 +2,8 @@
     import '../app.css';  
     import Header from '../layout/Header.svelte';
     import Footer from '../layout/Footer.svelte';
+
+
 </script>
 
 <Header />
@@ -35,9 +37,17 @@
 		height: 100%;
 		margin: 0;
 		padding: 0;
-        
+        scroll-behavior: smooth;
 	}
-
+    :global(.banner) {
+		min-height: 100vh;
+		height: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: auto;
+		background-attachment: fixed;
+	}
+    
     :global(nav) {
         background-color: #4A148C !important;
     }
@@ -53,5 +63,8 @@
 		font-family: 'Stanley';  
 		font-style: normal; 
 		src: url(/fonts/stanley.ttf);
-		} 
+    } 
+
+
+    
 </style>
