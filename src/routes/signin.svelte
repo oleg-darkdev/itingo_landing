@@ -1,4 +1,5 @@
 <script>
+	import Header from '../layout/Header.svelte';
 	import SignIn from '../components/auth/SignIn.svelte';
 	import { Button } from 'flowbite-svelte';
 
@@ -9,6 +10,8 @@
 <svelte:head>
 	<title>ITingo: Sign in</title>
 </svelte:head>
+
+<Header />
 
 <section class="login lg:justify-start md:justify-start sm:justify-center content-center" >
 	<div style="" class="text-wrap lg:w-7/12 md:w-10/12 w-12/12  flex justify-end items-center ">
