@@ -8,7 +8,7 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
+		company: 'lorem'
 	},
 	{
 		position: faker.company.bsBuzz(),
@@ -17,7 +17,7 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
+		company: 'lorem'
 	},
 	{
 		position: faker.company.bsBuzz(),
@@ -26,7 +26,7 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
+		company: 'lorem'
 	},
 	{
 		position: faker.company.bsBuzz(),
@@ -35,7 +35,7 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
+		company: 'lorem'
 	},
 	{
 		position: faker.company.bsBuzz(),
@@ -44,7 +44,7 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
+		company: 'lorem'
 	},
 	{
 		position: faker.company.bsBuzz(),
@@ -53,8 +53,8 @@ const feedback = [
 		text: faker.lorem.sentence(4),
 		title: faker.lorem.text(),
 		avatarImg: faker.image.avatar(), // faker.internet.avatar()
-		company: `${faker.company.companyName()}`
-	},
+		company: 'lorem'
+	}
 ];
 
 export default feedback;
