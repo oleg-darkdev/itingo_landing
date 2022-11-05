@@ -5,11 +5,12 @@
 		{
 			type: 'Dla startupow',
 			count: 0,
-			weHelp: 'Pomoc w dotarciu do grupy docelowej i wsparcie dla projektów open-source',
+			weHelp: 'Masz pomysł i szukasz ekipy dla realizacji open-source projekta?',
 			img: '/images/landing/clients/startups.svg',
 			link: '/',
 			alt: 'Startups image',
-			animation: 'left'
+			animation: 'left',
+			btnText: 'Zgłosić projekt'
 		},
 		{
 			type: 'Dla biznesu',
@@ -18,25 +19,28 @@
 			img: '/images/landing/clients/business.svg',
 			link: '/',
 			alt: 'Business image',
-			animation: 'right'
+			animation: 'right',
+			btnText: 'Zaoferować pomoc'
 		},
 		{
 			type: 'Dla IT wolontariutu',
 			count: 0,
 			weHelp: 'Potwierdzenie udziału w projektach, pomoc w następnym zatrudnieniu w IT',
 			img: '/images/landing/clients/volunteers.svg',
-			link: '/',
+			link: 'https://forms.gle/HopVuyRc8i3zi5YV7',
 			alt: 'Volunteers image',
-			animation: 'left'
+			animation: 'left',
+			btnText: 'Dołączyć do ekipy'
 		},
 		{
 			type: 'Dla NGO',
 			count: 0,
 			weHelp: 'Możliwość uzyskania wsparcia i poradnictwa w kwestiach IT',
 			img: '/images/landing/clients/ngo.svg',
-			link: '/',
+			link: 'https://forms.gle/M5eVAR7oRuXVoder8',
 			alt: 'Ngo image',
-			animation: 'right'
+			animation: 'right',
+			btnText: 'Zgłosić projekt'
 		},
 	]
 </script>
@@ -63,7 +67,7 @@
 			</a>
 			<div class="flex justify-between items-center">
 			<span class="m-2 text-3xl font-bold text-viol dark:text-white">{client.type}</span>
-			<Button color="purple" href={client.link}>Rejestracja</Button>
+			<Button color="purple" href={client.link}>{client.btnText}</Button>
 			</div>
 		</div>
 	 </div>
