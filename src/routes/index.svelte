@@ -13,12 +13,10 @@
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
 
-
-	
 <Header />
 
 <svelte:head>
-	<title>ITingo</title>
+	<title>ITingo - home</title>
 </svelte:head>
 
 <BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>
