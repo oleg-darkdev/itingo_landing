@@ -2,7 +2,7 @@
     <div class="email-animation-container">
         <i class="icon-envelope gh email-icon"></i>
     </div>
-    <h2 class="w-full text-center lg:text-3xl sm:text-2xl text-white font-black m-0"><i class="mr-2 icon-envelope text-lightYellow"></i>itingo.support@gmail.com</h2>
+    <h2 class="w-full text-center lg:text-3xl sm:text-2xl text-white font-black m-0"><i class="mr-2 icon-envelope text-lightYellow"></i>44hackerspace@gmail.com</h2>
 
 </div>
 
