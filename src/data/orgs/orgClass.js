@@ -7,8 +7,8 @@ class Org {
 			],
 			category: ['lorem', 'dolor'], // sport, Kultura i sztuka, LGBT, Zwierzęta, środowisko, Edukacja, Dom Sąsiedzki
 			nameOrg: 'Lorem ipsum dolor',
-			helloMessage:
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			// helloMessage:
+				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 			id: 'Lorem ipsum dolor',
 			since: '2022',
 			activities: [
