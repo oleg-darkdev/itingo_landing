@@ -30,7 +30,7 @@
 	</svelte:fragment> -->
 </StepsSection>
 {#each benefits as benefit}
-	<TypesOfWorks typeWork={benefit}/>
+	<TypesOfWorks typeWork={benefit} btnLink='https://forms.gle/HopVuyRc8i3zi5YV7'/>
 {/each}
 
 
