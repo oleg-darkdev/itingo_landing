@@ -1,5 +1,5 @@
 <script>
-
+  import socialItingoLinks from '../data/socialItingoLinks';
 </script>
 
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">
@@ -63,11 +63,7 @@
               </a>
             </li>
             <li class="mb-3">
-              <a href="#" class="hover:underline">Recenzje o nas
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href="#contact" class="hover:underline">Kontakt
+              <a href="/#feedback" class="hover:underline">Recenzje o nas
               </a>
             </li>
             <li class="mb-3">
@@ -76,7 +72,7 @@
             </li>
     </ul>
 
-
+    
 
       <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Dla kogo pracujemy
     </h2> 
@@ -98,7 +94,7 @@
         </a>
       </li>
       
-    
+
   </div>
    <div>
     <h2 class="mt-8 mb-1text-sm font-semibold uppercase text-lightYellow">Dla NGO
@@ -110,7 +106,7 @@
       </li>
         <li class="mb-3">
           <!-- google form -->
-        <a href="" class="hover:underline">Zgłoś projekt
+        <a href="https://forms.gle/M5eVAR7oRuXVoder8" class="hover:underline">Zgłoś projekt
         </a>
       </li>
       <li class="mb-3">
@@ -181,32 +177,56 @@
     
   </div> 
     <div>
-    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Kontakt
+          <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Kontakt
+    </h2> 
+    <ul class="text-gray-300">
+      {#each Object.values(socialItingoLinks) as socialLink}
+      <li class="mb-3">
+        <a href={socialLink.link} class="hover:underline">{socialLink.title}
+        </a>
+      </li>
+      {/each}
+    </ul>
+    
+    
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Nasza rodzina
     </h2> 
     <ul class="text-gray-300">
       <li class="mb-3">
-        <a href="/" class="hover:underline">Twitter
+        <a href="/" class="hover:underline">Nasi sponsorzy
         </a>
       </li>
-      
       <li class="mb-3">
-        <a href="/" class="hover:underline">Facebook
+        <a href="/" class="hover:underline">Nasi partnerzy
         </a>
       </li>
-      
       <li class="mb-3">
-        <a href="/" class="hover:underline">Instagram
+        <a href="/" class="hover:underline">Nasza społeczność wolontariuszy
         </a>
       </li>
-      
-        
       <li class="mb-3">
-        <a href="https://github.com/oleg-darkdev/itingo" class="hover:underline">Github
+        <a href="/" class="hover:underline">Nasi ulubieni klienci
         </a>
       </li>
-      
     </ul>
     
+
+    <!-- <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Sponsor generalny
+    </h2>  -->
+    <!-- mb-3 -->
+    
+
+    <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Główni partnerzy techniczni
+    </h2> 
+    <div class="flex flex-col">
+      <img style="width: 300px;" class="logo-partners" src="/images/sponsors/logo_general_sponsor.svg" alt="">
+      <img style="width: 300px;" class="logo-partners" src="/images/sponsors/logo_partner_cubes.svg" alt="">
+    </div>
+        <!-- <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Główny partner medialny
+    </h2>  -->
+    <!-- mb-3 -->
+
+
   </div> 
 </div> 
 <div class="py-6 px-4 bg-violDark md:flex md:items-center md:justify-between">
@@ -235,3 +255,11 @@
     <!--<FooterIcon>-->
   </div>
 </div>
+
+
+
+<style>
+  .logo-partners:hover {
+
+}
+</style>
