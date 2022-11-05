@@ -1,4 +1,6 @@
 <script>
+	import Header from '../layout/Header.svelte';
+
 	import BannerSection from "../layout/BannerSection.svelte";
 	import StepsSection from '../layout/landing/StepsSection.svelte';
 	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
@@ -10,12 +12,14 @@
 	import workTypes from '../data/ngo/workTypes';
 	import faqList from '../data/volunteers/volunteerFaqList';
 	import dataForTimeline from '../data/volunteers/dataForTimeline';
-	
+	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
 
 <svelte:head>
 	<title>ITingo dla wolontariusze</title>
 </svelte:head>
+
+<Header />
 
 <BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>
 
@@ -43,10 +47,13 @@
 
 <OurFamilySection />
 
+<FeedbackSection />
+
 <a id="faq" ></a>
 <FaqSection {faqList}/>
 
 <ContactSection />
+
 
 
 <style>
