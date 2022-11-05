@@ -10,10 +10,10 @@
     </p>
 	<div class="w-full mt-4 mb-2 flex  justify-center ">
         <div class="w-8/12 flex flex-col ">
-            <Button size="md" class="mb-1" color="yellow">Dla IT wolontariutu</Button>
-            <Button size="md" class="mb-1" color="yellow">Dla NGO</Button>
-            <Button size="md" class="mb-1" color="yellow">Dla biznesu</Button>
-            <Button size="md" color="yellow">Dla startupow</Button>
+            <Button size="md" class="mb-1" color="yellow">Zgłoszenie na IT startup</Button>
+            <Button size="md" class="mb-1" href='https://forms.gle/M5eVAR7oRuXVoder8' color="yellow">Zgłoszenie projektu dla NGO</Button>
+            <!-- <Button size="md" class="mb-1" color="yellow">Dla biznesu</Button> -->
+            <!-- <Button size="md" color="yellow">Dla startupow</Button> -->
         </div>
 	</div>
 </Card>
