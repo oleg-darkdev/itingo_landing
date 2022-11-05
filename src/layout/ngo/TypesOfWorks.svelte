@@ -2,7 +2,7 @@
     import { Button } from 'flowbite-svelte';
 	import WorkList from '../../components/ngo/WorkList.svelte';
 
-	export let typeWork;
+	export let typeWork, btnLink;
 </script>
 
 <!-- class:active={}  -->
@@ -19,7 +19,7 @@
   				{typeWork.description}
 			</p>
 			<WorkList dataAboutService={typeWork.dataAboutService}/>
-			<Button href='/form' size="xl" class="lg:w-4/12" color="purple">Zgłosić projekt</Button>
+			<Button href={btnLink} size="xl" class="lg:w-4/12" color="purple">Zgłosić projekt</Button>
 		</div>
 	</div>
 </section>
