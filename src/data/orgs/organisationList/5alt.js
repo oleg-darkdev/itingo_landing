@@ -1,4 +1,4 @@
-import OrgClass from './orgClass';
+import OrgClass from '../orgClass';
 
 let org = new OrgClass();
 
@@ -77,3 +77,6 @@ org.bio.readyToPay = {
 	volounter: false,
 	other: [false]
 };
+
+
+export default org;
