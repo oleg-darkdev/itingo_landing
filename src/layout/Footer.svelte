@@ -1,5 +1,7 @@
 <script>
   import socialItingoLinks from '../data/socialItingoLinks';
+  import ourFamily from '../data/ourFamily';
+
 </script>
 
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">
@@ -219,8 +221,15 @@
     <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Główni partnerzy techniczni
     </h2> 
     <div class="flex flex-col">
-      <img style="width: 300px;" class="logo-partners" src="/images/sponsors/logo_general_sponsor.svg" alt="">
-      <img style="width: 300px;" class="logo-partners" src="/images/sponsors/logo_partner_cubes.svg" alt="">
+        <a href={ourFamily.sponsors.generalSponsor.link}>
+          <img style="width: 300px;" class="logo-partners" src={ourFamily.sponsors.generalSponsor.logo} alt={ourFamily.sponsors.generalSponsor.title}>
+        </a>
+      {#each ourFamily.partners.technicalPartners as technicalPartner}
+      <a href={technicalPartner.link}>
+        <img style="width: 300px;" class="logo-partners" src={technicalPartner.logo} alt={technicalPartner.title}>
+      </a>
+      {/each}
+
     </div>
         <!-- <h2 class="mt-8 mb-1 text-sm font-semibold uppercase text-lightYellow">Główny partner medialny
     </h2>  -->
