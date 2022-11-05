@@ -10,6 +10,7 @@
 	import faqList from '../data/ngo/ngoFaqList';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
+	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
 </script>
 
 <svelte:head>
@@ -22,6 +23,8 @@
 
 <ImpactSection />
 
+<TrelloBoardSection />
+
 <StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
 	<!-- <svelte:fragment slot="block">
 
@@ -33,7 +36,7 @@
 </section>
 
 {#each workTypes as typeWork}
-	<TypesOfWorks {typeWork}/>
+	<TypesOfWorks {typeWork} btnLink='https://forms.gle/M5eVAR7oRuXVoder8'/>
 {/each}
 
 <a id="faq" ></a>
