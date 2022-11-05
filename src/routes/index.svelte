@@ -1,5 +1,5 @@
 <script>
-
+    import Header from '../layout/Header.svelte';
 	import BannerSection from "../layout/BannerSection.svelte";
 	import ClientsSection from '../layout/landing/ClientsSection.svelte';
 	import StepsSection from '../layout/landing/StepsSection.svelte';
@@ -10,8 +10,12 @@
 	import ContactSection from '../layout/ContactSection.svelte';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import faqList from "../data/landing/landingFaqList";
-	
+	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
+
+
+	
+<Header />
 
 <svelte:head>
 	<title>ITingo</title>
@@ -32,10 +36,11 @@
 
 <OurFamilySection />
 
+<FeedbackSection />
+
 <FaqSection {faqList}/>
 
 <ContactSection />
-
 
 
 <style>

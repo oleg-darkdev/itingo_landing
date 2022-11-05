@@ -1,20 +1,22 @@
 <script>
+	import Header from '../layout/Header.svelte';
 	import BannerSection from "../layout/BannerSection.svelte";
 	import StepsSection from '../layout/landing/StepsSection.svelte';
 	import ImpactSection from '../layout/landing/ImpactSection.svelte';
-	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
 	import workTypes from '../data/ngo/workTypes';
 	import faqList from '../data/ngo/ngoFaqList';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
-	
+	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
 
 <svelte:head>
 	<title>ITingo dla NGO</title>
 </svelte:head>
+
+<Header />
 
 <BannerSection />
 
@@ -25,7 +27,7 @@
 
 	</svelte:fragment> -->
 </StepsSection>
-
+<FeedbackSection />
 <section style="background-image: url('/images/ngo/work_banner-bg.svg');" class="banner items-center  w-full  flex flex-col justify-center">
 <!--  add blocks inside -->
 </section>
@@ -34,15 +36,10 @@
 	<TypesOfWorks {typeWork}/>
 {/each}
 
-
-
-<OurFamilySection />
-
 <a id="faq" ></a>
 <FaqSection {faqList}/>
 
 <ContactSection />
-
 
 <style>
 	
