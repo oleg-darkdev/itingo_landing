@@ -1,11 +1,16 @@
+<script>
+  import socialItingoLinks from '../../data/socialItingoLinks';
+</script>
+
 <div class="wrap-social-container mb-8 flex-col items-center justify-center">
     <div class="social-animation-container">
-        <a href="/"><i class="icon-facebook fb soc-icon"></i></a>
+        <a href="{socialItingoLinks.facebook.link}"><i class="icon-facebook fb soc-icon"></i></a>
         
-        <a href="/"><i class="icon-twitter tw soc-icon"></i></a>
+        <a href="{socialItingoLinks.twitter.link}"><i class="icon-twitter tw soc-icon"></i></a>
         <!-- <i class="icon-youtube yt"></i> -->
-        <a href="/"><i class="icon-linkedin ln soc-icon"></i></a>
-        <a href="/"><i class="icon-github gh soc-icon"></i></a>
+        <a href="{socialItingoLinks.linkedin.link}"><i class="icon-linkedin ln soc-icon"></i></a> 
+        <a href="{socialItingoLinks.github.link}"><i class="icon-github gh soc-icon"></i></a>
+        <a href="{socialItingoLinks.instagram.link}"><i class="icon-instagram in soc-icon"></i></a>
        
     </div>
     <h2 class="w-full text-center text-3xl text-white font-black m-0"><i class="icon-hand-up text-lightYellow"></i> w mediach <i class="icon-hand-up text-lightYellow"></i></h2>
@@ -59,12 +64,16 @@
   color: #09AEEC;
 }
 
+.in {
+  color: #FFEB3B;
+}
+
 .dr {
   color: #ea4c89;
 }
 
 .ln {
-  color: #00A5E6;
+  color: #8BC34A;
 }
 
 .gh {

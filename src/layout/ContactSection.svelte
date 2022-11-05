@@ -1,7 +1,7 @@
 <script>
 	import SocialMedia from "./contact/SocialMedia.svelte";
 	import MailContact from "./contact/MailContact.svelte";
-	import Coordinator from "./contact/Coordinator.svelte";
+	import Coordinator from "./contact/Coordinator.svelte";	
 </script>
 
 <section id="contact" class="pb-12 pt-20 contact bg-lightYellow flex items-center ">

@@ -1,5 +1,5 @@
 <script>
-
+  import socialCordinatorLinks from '../../data/socialCordinatorLinks'
 </script>
 
 <div data-aos="flip-up"
@@ -19,10 +19,10 @@
 
     <div style="" class="border-viol wrap-social-container mb-4 flex-col items-center justify-center">
     <div class="social-coordinator-container">
-        <a href="/"><i class="icon-facebook fb "></i></a>
-        <a href="/"><i class="icon-twitter tw "></i></a>
-        <a href="/"><i class="icon-linkedin ln "></i></a>
-        <a href="/"><i class="icon-github gh "></i></a>
+        <a href="{socialCordinatorLinks.facebook}"><i class="icon-facebook fb "></i></a>
+        <a href="{socialCordinatorLinks.linkedin}"><i class="icon-linkedin ln "></i></a> 
+        <a href="{socialCordinatorLinks.github}"><i class="icon-github gh "></i></a>
+
     </div>
     <h2 class="w-full text-center text-3xl text-viol font-black m-0"><i class="icon-hand-up text-viol"></i> w mediach <i class="icon-hand-up text-viol"></i></h2>
 </div>
@@ -44,11 +44,6 @@
 .fb {
   color: #ea4c89;
 }
-
-.tw {
-  color: #09AEEC;
-}
-
 
 .ln {
   color: #00A5E6;
