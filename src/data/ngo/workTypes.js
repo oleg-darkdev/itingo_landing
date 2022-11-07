@@ -244,7 +244,7 @@ let typesWork = [
 	},
 	{
 		bgImage: 'computers-bg',
-		title: 'Serwis komputerowy',
+		title: 'Serwis laptopów',
 		description: ['', ''],
 		examples: ['', '', '', ''],
 		align: 'end',
@@ -275,7 +275,7 @@ let typesWork = [
 	},
 	{
 		bgImage: 'video-bg',
-		title: 'Wideo promocyjne',
+		title: 'Wideo i foto',
 		description: ['', ''],
 		examples: ['', '', '', ''],
 		align: 'start',
