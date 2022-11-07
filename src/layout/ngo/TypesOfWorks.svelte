@@ -5,8 +5,7 @@
 	export let typeWork, btnLink;
 </script>
 
-<!-- class:active={}  -->
-<section id={typeWork.anchor} style="background-position: {typeWork.align == 'start' ? 'right': 'left'}; background-image: url({typeWork.bgImage});" class="work-wrap justify-{typeWork.align} content-center " >
+<section id={typeWork.anchor} style="background-position: {typeWork.align == 'start' ? 'right': 'left'};" class="{typeWork.bgImage} work-wrap justify-{typeWork.align} content-center " >
 	<div data-aos="fade-{typeWork.align == 'start' ? 'right': 'left'}"
 		data-aos-delay="80"
 		data-aos-duration="800" 
@@ -26,7 +25,8 @@
 
 
 <style>
-    .work-wrap {
+	
+	.work-wrap {
 		
 		height: auto;
 		background-repeat: no-repeat;		
@@ -37,11 +37,43 @@
 		.work-wrap {
 			min-height: 100vh;
 		}
+		.computers-bg {
+		 background-image: url(/images/ngo/type_works_bg/computers-bg.svg);
+	}
+
+	.design-bg {
+		background-image: url(/images/ngo/type_works_bg/design-bg.svg);
+	}
+	.projecting-bg {
+		background-image: url(/images/ngo/type_works_bg/projecting-bg.svg);
+	}
+	.security-bg {
+		background-image: url(/images/ngo/type_works_bg/security-bg.svg);
+	}
+	.seo-bg {
+		background-image: url(/images/ngo/type_works_bg/seo-bg.svg);
+	}
+	.server-bg {
+		background-image: url(/images/ngo/type_works_bg/server-bg.svg);
+	}
+	.site-bg {
+		background-image: url(/images/ngo/type_works_bg/site-bg.svg);
+	}
+	.social-bg {
+		background-image: url(/images/ngo/type_works_bg/social-bg.svg);
+	}
+	.video-bg {
+		background-image: url(/images/ngo/type_works_bg/video-bg.svg);
+	}
 	}
 	@media (min-device-width: 320px) and (max-device-width: 1024px) {
 		.work-wrap {
 			min-height: 60vh;
 			height: auto;
 		}
+		.computers-bg, .design-bg, .projecting-bg, .security-bg, .seo-bg, .server-bg, .site-bg, .social-bg, .video-bg {
+			background-color: #4A148C;
+		}
+
 	}
 </style>

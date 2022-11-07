@@ -7,7 +7,7 @@
 
 let typesWork = [
 	{
-		bgImage: '/images/ngo/type_works_bg/design-bg.svg',
+		bgImage: 'design-bg',
 		title: 'Design',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -55,7 +55,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/projecting-bg.svg',
+		bgImage: 'projecting-bg',
 		title: 'Projecting',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -81,7 +81,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/security-bg.svg',
+		bgImage: 'security-bg',
 		title: 'Security',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -105,7 +105,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/seo-bg.svg',
+		bgImage: 'seo-bg',
 		title: 'Seo',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -129,7 +129,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/server-bg.svg',
+		bgImage: 'server-bg',
 		title: 'Server',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -137,7 +137,7 @@ let typesWork = [
 		anchor: 'server',
 		dataAboutService: [
 			{
-				title: 'Data base',
+				title: 'DEVops',
 				subTitle: '',
 				description: [
 					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -156,11 +156,25 @@ let typesWork = [
 				description: [
 					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 				]
+			},
+			{
+				title: 'Administracja systemu',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			},
+			{
+				title: 'Data bases',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
 			}
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/site-bg.svg',
+		bgImage: 'site-bg',
 		title: 'Website',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -198,7 +212,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/social-bg.svg',
+		bgImage: 'social-bg',
 		title: 'Social Media',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -229,7 +243,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/computers-bg.svg',
+		bgImage: 'computers-bg',
 		title: 'Serwis komputerowy',
 		description: ['', ''],
 		examples: ['', '', '', ''],
@@ -237,7 +251,7 @@ let typesWork = [
 		anchor: 'computers',
 		dataAboutService: [
 			{
-				title: 'Strategy',
+				title: 'Serwis komputerowy',
 				subTitle: '',
 				description: [
 					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -260,7 +274,7 @@ let typesWork = [
 		]
 	},
 	{
-		bgImage: '/images/ngo/type_works_bg/video-bg.svg',
+		bgImage: 'video-bg',
 		title: 'Wideo promocyjne',
 		description: ['', ''],
 		examples: ['', '', '', ''],
