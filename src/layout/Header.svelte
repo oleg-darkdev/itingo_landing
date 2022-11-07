@@ -14,8 +14,10 @@
     <NavLi href="/" active={true}>Strona główna</NavLi>
     <NavLi href="/ngo">NGO</NavLi>
     <!-- <NavLi href="/startups">Startapam</NavLi>
-    <NavLi href="/business">Biznesu</NavLi> -->
+    -->
+    
     <NavLi href="/volunteer">IT wolontariutu</NavLi>
+    <NavLi href="/business">Biznesu</NavLi> 
     <NavLi href="/our-family">Nasza rodzina</NavLi>
     <NavLi href="/faq">FAQ</NavLi>
     <NavLi href="#contact">Kontakt</NavLi>
