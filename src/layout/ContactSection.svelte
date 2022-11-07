@@ -38,10 +38,16 @@
     .contact {
 		min-height: 100vh;
 		height: auto;
-		background-image: url(/images/landing/bg/contact-bg.svg);
-		background-repeat: no-repeat;
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
+
+	}
+
+	@media (min-width: 1024px) {
+		.contact {
+			background-image: url(/images/landing/bg/contact-bg.svg);
+			background-repeat: no-repeat;
+			background-size: cover; 
+			background-attachment: fixed;
+			background-position: center;
+		}
 	}
 </style>
