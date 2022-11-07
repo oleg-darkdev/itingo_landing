@@ -1,16 +1,20 @@
 <script>
-    import Faq from '../components/landing/Faq.svelte';
+    import Faq from '../components/faq/Faq.svelte';
 	
-	export let faqList;
+	export let faqList, title = 'Pytania i odpowiedzi', bgImgClass;
 </script>
 
-<section style="height: auto;" class="faq pb-12 pt-20 w-full items-center flex-col flex  " id="faq">
+<section style="height: auto;" class="faq-bg {bgImgClass} pb-12 pt-20 w-full items-center flex-col flex  " id="faq">
 
 	<div  class="empty-block w-full">
 
 	</div>
-	<div class="bg-viol  lg:w-6/12 md:w-10/12 sm:w-12/12 rounded  flex-col flex items-center ">
+	<div class="bg-viol   lg:w-6/12 md:w-10/12 sm:w-12/12 rounded  flex-col flex items-center ">
 		<div class="w-full px-5 p-5 shadow-md rounded-lg ">
+			<h2 class="w-full text-center text-4xl text-white font-black mb-8">
+				{title} 
+			</h2>
+
 			<Faq {faqList}/>
 		</div>
 	</div>
@@ -18,18 +22,35 @@
 
 
 <style>
-    .faq {
+    .faq-bg {
 		min-height: 100vh;
 		height: auto;
-		background-image: url(/images/landing/bg/faq-bg.svg);
 		background-repeat: no-repeat;
 		background-position: 50% 0%;
 		background-size:60%; 
 	}
 
+	.faq-bg-volunteers { 
+		background-image: url(/images/faq/faq-vols.svg);
+	}
+	.faq-bg-ngo {
+		background-image: url(/images/faq/faq-ngo.svg);
+	}
+	.faq-bg-partners {
+		background-image: url(/images/faq/faq-partners.svg);
+	}
+	.faq-bg-startups {
+		background-image: url(/images/faq/faq-startups.svg);
+	}
+	
+	.faq-bg-main {
+		background-image: url(/images/faq/faq-main.svg);
+	}
+
+
 	.empty-block {
 		max-height: 70vh;
-		margin-bottom: -100px;
+		/* margin-bottom: -100px; */
 		height: 60vh;
 	}
 
