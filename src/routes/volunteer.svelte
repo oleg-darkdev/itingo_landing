@@ -10,7 +10,7 @@
 	import benefits from '../data/volunteers/benefits';
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
 	import workTypes from '../data/ngo/workTypes';
-	import faqList from '../data/volunteers/volunteerFaqList';
+	import faqList from '../data/faq/volunteerFaqList';
 	import dataForTimeline from '../data/volunteers/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
@@ -50,7 +50,7 @@
 <FeedbackSection />
 
 <a id="faq" ></a>
-<FaqSection {faqList}/>
+<FaqSection itle='Pytania i odpowiedzi dla wolontariuszy' bgImgClass='faq-bg-volunteers' {faqList}/>
 
 <ContactSection />
 

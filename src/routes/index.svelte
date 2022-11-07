@@ -9,7 +9,7 @@
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
-	import faqList from "../data/landing/landingFaqList";
+	import faqList from '../data/faq/landingFaqList';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 </script>
 
@@ -36,7 +36,7 @@
 
 <FeedbackSection />
 
-<FaqSection {faqList}/>
+<FaqSection title='Pytania i odpowiedzi: sprawy ogólne' {faqList} bgImgClass='faq-bg-main'/>
 
 <ContactSection />
 

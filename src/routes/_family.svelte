@@ -4,7 +4,7 @@
 
 	import OurFamily from '../layout/ngo/OurFamily.svelte';
 	import partnersList from '../data/ngo/partnersList';
-	import faqList from '../data/ngo/ngoFaqList';
+	import faqList from '../data/faq/ngoFaqList';
 
 	
 </script>

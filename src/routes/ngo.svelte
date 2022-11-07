@@ -7,7 +7,7 @@
 	import ContactSection from '../layout/ContactSection.svelte';
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
 	import workTypes from '../data/ngo/workTypes';
-	import faqList from '../data/ngo/ngoFaqList';
+	import faqList from '../data/faq/ngoFaqList';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
@@ -20,6 +20,7 @@
 <Header />
 
 <BannerSection />
+
 
 <ImpactSection />
 
@@ -40,7 +41,7 @@
 {/each}
 
 <a id="faq" ></a>
-<FaqSection {faqList}/>
+<FaqSection title='Pytania i odpowiedzi dla NGO' {faqList} bgImgClass='faq-bg-ngo'/>
 
 <ContactSection />
 
