@@ -13,6 +13,7 @@
 	import faqList from '../data/faq/volunteerFaqList';
 	import dataForTimeline from '../data/volunteers/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
+	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 </script>
 
 <svelte:head>
@@ -21,7 +22,7 @@
 
 <Header />
 
-<BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>
+<BannerSection bgImg='/images/volunteers/volunteers_banner_bg.svg'/>
 
 <a id="start" ></a>
 <StepsSection text='Zostań wolontariuszem i rozpocznij swoją podróż w IT' {dataForTimeline}>
@@ -29,16 +30,26 @@
 
 	</svelte:fragment> -->
 </StepsSection>
+
+<div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
+	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
+		Co oferujemy IT wolontariuszom 
+	</h2>
+</div>
+
 {#each benefits as benefit}
 	<TypesOfWorks typeWork={benefit} btnLink='https://forms.gle/HopVuyRc8i3zi5YV7'/>
 {/each}
 
 
 <a id="work" ></a>
-<section style="background-image: url('/images/ngo/work_banner-bg.svg');" class="banner items-center  w-full  flex flex-col justify-center">
-<!--  add blocks inside -->
-</section>
+<WorkBannerSection />
 
+<div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
+	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
+		Jakie wyzwania pojawiają się w projektach dla NGO
+	</h2>
+</div>
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork}/>
 {/each}
@@ -59,11 +70,8 @@
 <style>
 	
 	@media (min-device-width: 320px) and (max-device-width: 1024px) {
-		.banner {
-			background-size: 100%; 
-			margin-bottom: 10px;
-			height: auto;
-			background-size: cover;
+	.banner {
+			display:none;
 		}
 	}
 

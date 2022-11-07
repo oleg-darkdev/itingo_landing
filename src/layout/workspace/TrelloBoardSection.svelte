@@ -4,7 +4,7 @@
     <span style="" class="text-logo-letter-spacing text-viol text-stantley">ITingo</span>
     </h2> -->
 
-<iframe class="w-8/12 rounded-xl " src="https://trello.com/b/2RHOp366.html">
+<iframe class="lg:w-8/12 w-full rounded-xl " src="https://trello.com/b/2RHOp366.html">
 
 </iframe>
 </section>

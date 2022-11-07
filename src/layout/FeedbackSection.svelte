@@ -4,7 +4,7 @@
   import { Avatar } from "flowbite-svelte"
 </script>
 
-<section class="flex items-center flex-col lg:p-20 pt-4 pb-4 bg-lightYellow" id="feedback ">
+<section class="flex items-center flex-col lg:p-20 pt-4 pb-4 pr-2 pl-2  bg-lightYellow" id="feedback ">
   <h2 class="w-full m-8 text-center text-6xl text-viol font-bold ">
 		Opinie klientów
     <span style="" class="text-logo-letter-spacing text-viol text-stantley">ITingo</span>

@@ -12,8 +12,8 @@
 		data-aos-once="false"
 		data-aos-mirror="true"  style="" class="lg:w-7/12 md:w-12/12 bg-white flex justify-end items-center">
 		<div 
-		style="min-width: 320px;" class="pt-8 pb-8 flex flex-col items-center ">
-			<h2 class=" m-8 text-6xl text-lightYellow font-bold">{typeWork.title}</h2>
+		style="min-width: 320px;" class="pt-8 pb-8 pr-2 pl-2 flex flex-col items-center ">
+			<h3 class=" m-8 text-5xl lg:text-6xl md:text-6xl   text-lightYellow font-bold">{typeWork.title}</h3>
 			  <p class="font-normal lg:w-8/12 md:w-8/12 w-11/12 text-start leading-tight mb-2 text-viol">
   				{typeWork.description}
 			</p>

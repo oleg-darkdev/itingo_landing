@@ -5,7 +5,7 @@
 </script>
 
 <section id="contact" class="pb-12 pt-20 contact bg-lightYellow flex items-center ">
-	<div style="min-height: 350px;" class="lg:w-5/12 md:w-7/12 md:pb-6 sm:max-w-max lg:p-8 flex-col flex items-center shadow-md lg:rounded-lg md:rounded-lg bg-viol">
+	<div style="min-height: 350px;" class="lg:w-5/12 md:w-7/12 p-6 sm:max-w-max lg:p-8 flex-col flex items-center shadow-md lg:rounded-lg md:rounded-lg bg-viol">
 		<h2 class="w-full text-center text-5xl text-white font-black">Kontakt z nami</h2>
 		<p class="m-2 font-bold text-center w-8/12 leading-tight mb-2 text-white">
 			Prosimy! Zanim skontaktujesz się z nami, przestudiuj tęn   
