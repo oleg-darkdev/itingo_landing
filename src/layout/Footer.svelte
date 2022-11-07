@@ -69,7 +69,7 @@
               </a>
             </li>
             <li class="mb-3">
-              <a href="" class="hover:underline">Materiały do pobrania
+              <a href="/resources" class="hover:underline">Materiały do pobrania
               </a>
             </li>
     </ul>
@@ -240,7 +240,7 @@
 </div> 
 <div class="py-6 px-4 bg-violDark md:flex md:items-center md:justify-between">
     <div class="flex flex-row">
-       <img src="/images/logo.svg" class="mt-1 h-6 sm:h-9" alt="ITingo Logo"/>
+       <img src="/images/resources/logo_white.svg" class="mt-1 h-6 sm:h-9" alt="ITingo Logo"/>
         <span class="self-center whitespace-nowrap lg:text-5xl md:text-4xl  text-3xl   text-lightYellow text-stantley">
           ITingo
        </span>
