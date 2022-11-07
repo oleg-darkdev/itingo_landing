@@ -11,6 +11,7 @@
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
+	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 </script>
 
 <svelte:head>
@@ -19,7 +20,7 @@
 
 <Header />
 
-<BannerSection />
+<BannerSection bgImg='/images/ngo/banner_ngo-bg.svg'/>
 
 
 <ImpactSection />
@@ -32,9 +33,14 @@
 	</svelte:fragment> -->
 </StepsSection>
 <FeedbackSection />
-<section style="background-image: url('/images/ngo/work_banner-bg.svg');" class="banner items-center  w-full  flex flex-col justify-center">
-<!--  add blocks inside -->
-</section>
+
+<WorkBannerSection />
+
+<div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
+	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
+		W czym dokładnie możemy pomóc NGO
+	</h2>
+</div>
 
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork} btnLink='https://forms.gle/M5eVAR7oRuXVoder8'/>
@@ -46,14 +52,6 @@
 <ContactSection />
 
 <style>
-	
-	@media (min-device-width: 320px) and (max-device-width: 1024px) {
-		.banner {
-			background-size: 100%; 
-			margin-bottom: 10px;
-			height: auto;
-			background-size: cover;
-		}
-	}
+
 
 </style>
