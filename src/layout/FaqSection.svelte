@@ -22,13 +22,7 @@
 
 
 <style>
-    .faq-bg {
-		min-height: 100vh;
-		height: auto;
-		background-repeat: no-repeat;
-		background-position: 50% 0%;
-		background-size:60%; 
-	}
+
 
 	.faq-bg-volunteers { 
 		background-image: url(/images/faq/faq-vols.svg);
@@ -47,20 +41,33 @@
 		background-image: url(/images/faq/faq-main.svg);
 	}
 
-
 	.empty-block {
 		max-height: 70vh;
-		/* margin-bottom: -100px; */
 		height: 60vh;
 	}
 
-	@media (min-device-width: 320px) and (max-device-width: 1024px) {
+	@media (min-device-width: 1024){
+		.faq-bg {
+			min-height: 100vh;
+			height: auto;
+			background-repeat: no-repeat;
+			background-position: 50% 0%;
+			background-size:60%; 
+		}
+	}
+
+	@media (min-device-width: 760px) and (max-device-width: 1024px) {
 		.empty-block {
-			height: 35vh;
+			height: 45vh;
 		}
 		.faq {
 			background-size: 100%; 
 			margin-bottom: 10px;
+		}
+	}
+	@media (min-device-width: 320px) and (max-device-width: 760px) {
+		.empty-block {
+			height: 17vh;
 		}
 	}
 </style>
