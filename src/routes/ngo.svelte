@@ -34,13 +34,9 @@
 </StepsSection>
 <FeedbackSection />
 
-<WorkBannerSection />
+<WorkBannerSection title='W czym dokładnie możemy pomóc NGO'/>
 
-<div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
-	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
-		W czym dokładnie możemy pomóc NGO
-	</h2>
-</div>
+
 
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork} btnLink='https://forms.gle/M5eVAR7oRuXVoder8'/>

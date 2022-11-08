@@ -43,13 +43,8 @@
 
 
 <a id="work" ></a>
-<WorkBannerSection />
+<WorkBannerSection title='Jakie wyzwania pojawiają się w projektach dla NGO'/>
 
-<div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
-	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
-		Jakie wyzwania pojawiają się w projektach dla NGO
-	</h2>
-</div>
 {#each workTypes as typeWork}
 	<TypesOfWorks {typeWork}/>
 {/each}
