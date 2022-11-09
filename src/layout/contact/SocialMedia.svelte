@@ -11,6 +11,7 @@
         <a target="_blank" href="{socialItingoLinks.linkedin.link}"><i class="icon-linkedin ln soc-icon"></i></a> 
         <a target="_blank" href="{socialItingoLinks.github.link}"><i class="icon-github gh soc-icon"></i></a>
         <a target="_blank" href="{socialItingoLinks.instagram.link}"><i class="icon-instagram in soc-icon"></i></a>
+        <a target="_blank" href="{socialItingoLinks.trello.link}"><i class="icon-trello tr soc-icon"></i></a>
        
     </div>
     <h2 class="w-full text-center text-3xl text-white font-black m-0"><i class="icon-hand-up text-lightYellow"></i> w mediach <i class="icon-hand-up text-lightYellow"></i></h2>
@@ -62,6 +63,10 @@
 
 .tw {
   color: #09AEEC;
+}
+
+.tr {
+  color: #ea4c89;
 }
 
 .in {
