@@ -6,7 +6,7 @@
 </script>
 
 <section id={typeWork.anchor} style="background-position: {typeWork.align == 'start' ? 'right': 'left'};" class="{typeWork.bgImage} work-wrap justify-{typeWork.align} content-center " >
-	<div data-aos="fade-{typeWork.align == 'start' ? 'right': 'left'}"
+	<div data-aos="fade-down"
 		data-aos-delay="80"
 		data-aos-duration="800" 
 		data-aos-once="false"
@@ -40,7 +40,34 @@
 		.computers-bg {
 		 background-image: url(/images/ngo/type_works_bg/computers-bg.svg);
 	}
+	/* benefits */
+	.technology-bg {
+		background-image: url(/images/volunteers/benefits/technology-bg.svg);
+	}
+	.progress-bg {
+		background-image: url(/images/volunteers/benefits/progress-bg.svg);
+	}
+	.begginers_help-bg {
+		background-image: url(/images/volunteers/benefits/begginers_help-bg.svg);
+	}
+	.flexible_schedule-bg {
+		background-image: url(/images/volunteers/benefits/flexible_schedule-bg.svg);
+	}
+	.mentoring-bg {
+		background-image: url(/images/volunteers/benefits/mentoring-bg.svg);
+	}
+	.technology-bg {
+		background-image: url(/images/volunteers/benefits/technology-bg.svg);
+	}
+	.reccomandation_letter-bg {
+		background-image: url(/images/volunteers/benefits/reccomandation_letter-bg.svg);
+	}
 
+
+
+
+
+	/* types works */
 	.design-bg {
 		background-image: url(/images/ngo/type_works_bg/design-bg.svg);
 	}
