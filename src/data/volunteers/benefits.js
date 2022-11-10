@@ -1,6 +1,6 @@
 let benefits = [
 	{
-		bgImage: '/images/volunteers/benefits/reccomandation_letter-bg.svg',
+		bgImage: 'reccomandation_letter-bg',
 		title: 'Dowód doświadczenia',
 		description: ['Dowód doświadczenia w programowaniu oraz listy polecające do zatrudnienia.'],
 		align: 'start',
@@ -16,7 +16,7 @@ let benefits = [
 		]
 	},
 	{
-		bgImage: '/images/volunteers/benefits/mentoring-bg.svg',
+		bgImage: 'mentoring-bg',
 		title: 'Mentoring',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -36,7 +36,7 @@ let benefits = [
 		]
 	},
 	{
-		bgImage: '/images/volunteers/benefits/flexible_schedule-bg.svg',
+		bgImage: 'flexible_schedule-bg',
 		title: 'Wolny harmonogram udziału w projektach',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -56,7 +56,7 @@ let benefits = [
 		]
 	},
 	{
-		bgImage: '/images/volunteers/benefits/begginers_help-bg.svg',
+		bgImage: 'begginers_help-bg',
 		title: 'Pomoc dla początkujących',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -76,7 +76,7 @@ let benefits = [
 		]
 	},
 	{
-		bgImage: '/images/volunteers/benefits/progress-bg.svg',
+		bgImage: 'progress-bg',
 		title: 'Nieustanny rozwój',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -96,7 +96,7 @@ let benefits = [
 		]
 	},
 	{
-		bgImage: '/images/volunteers/benefits/technology-bg.svg',
+		bgImage: 'technology-bg',
 		title: 'Swoboda wyboru technologii dla projektów',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
