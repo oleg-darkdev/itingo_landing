@@ -246,10 +246,10 @@
        </span>
     
     </div>
-  <span class="text-sm text-gray-300 sm:text-center">© 2022 
-    <a href="/" class="hover:underline">44Hackerspace™
+  <span class="text-sm text-gray-300 sm:text-center"> 
+    <a href="/" class="hover:underline">44Hackerspace™. 
     </a>
-    . All Rights Reserved.
+    All Rights Reserved. © 2022
   </span>
   <!--<FooterCopyright>--> 
   <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
