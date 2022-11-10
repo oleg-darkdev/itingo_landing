@@ -48,13 +48,15 @@
 
 <div class="w-full justify-center">
 	<div style="" class="pt-12 clients-wrap lg:w-10/12 w-12/12 md:w-12/12 flex-wrap row justify-center">
-	{#each clientTypes as client}
+		{#each clientTypes as client}
+	
 	<div    
-		data-aos="fade-{client.animation}"
+			data-aos="flip-up"
 		data-aos-delay="100"
 		data-aos-duration="1000" 
 		data-aos-once="false"
 		data-aos-mirror="true"
+
 		style="min-height: 410px; height: auto; max-height: 430px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
 			<a href={client.link}>
 				<img class="p-8 rounded-t-lg" src={client.img} alt={client.alt} />
