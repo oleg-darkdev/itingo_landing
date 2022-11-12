@@ -1,6 +1,6 @@
 <div class="wrap-social-container mb-8 flex-col items-center justify-center">
     <div class="email-animation-container">
-        <i class="icon-envelope gh email-icon"></i>
+        <i class="icon-envelope email-icon"></i>
     </div>
     <h2 class="w-full text-center lg:text-3xl sm:text-2xl text-white font-black m-0"><i class="mr-2 icon-envelope text-lightYellow"></i>44hackerspace@gmail.com</h2>
 
@@ -41,13 +41,11 @@
   top: 55px;
   margin: 0 10px;
   transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+  color: #fff;
   /* ease-in-out */
 }
 .email-icon:hover {
   top: 5px;
 }
 
-.gh {
-  color: #fff;
-}
 </style>

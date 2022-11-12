@@ -19,9 +19,9 @@
 
     <div style="" class="border-viol wrap-social-container mb-4 flex-col items-center justify-center">
     <div class="social-coordinator-container">
-        <a target="_blank" href="{socialCordinatorLinks.facebook}"><i class="icon-facebook fb "></i></a>
-        <a  target="_blank" href="{socialCordinatorLinks.linkedin}"><i class="icon-linkedin ln "></i></a> 
-        <a target="_blank" href="{socialCordinatorLinks.github}"><i class="icon-github gh "></i></a>
+        <a target="_blank" href="{socialCordinatorLinks.facebook}"><i class="icon-facebook fb-mode "></i></a>
+        <a  target="_blank" href="{socialCordinatorLinks.linkedin}"><i class="icon-linkedin ln-mode "></i></a> 
+        <a target="_blank" href="{socialCordinatorLinks.github}"><i class="icon-github gh-mode "></i></a>
 
     </div>
     <h2 class="w-full text-center text-3xl text-viol font-black m-0"><i class="icon-hand-up text-viol"></i> w mediach <i class="icon-hand-up text-viol"></i></h2>
@@ -41,15 +41,15 @@
 }
 
 
-.fb {
+.fb-mode {
   color: #ea4c89;
 }
 
-.ln {
+.ln-mode {
   color: #00A5E6;
 }
 
-.gh {
+.gh-mode {
   color: #4A148C;
 }
 </style>

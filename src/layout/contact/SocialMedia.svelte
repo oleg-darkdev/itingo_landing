@@ -33,55 +33,6 @@
 }
 
 
-:global(.wrap-social-container) {
-  width: 100%;
-  text-align: center;
-}
 
-:global(.social-animation-container) {
-  font-size: 2.5em;
-  height: 60px;
-  max-width: 360px;
-  overflow: hidden;
-  border-bottom: 1px solid #abc;
-}
 
-:global(.soc-icon) {
-  position: relative;
-  top: 25px;
-  margin: 0 10px;
-  transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
-  /* ease-in-out */
-}
-:global(.soc-icon:hover) {
-  top: 5px;
-}
-
-.fb {
-  color: #ea4c89;
-}
-
-.tw {
-  color: #09AEEC;
-}
-
-.tr {
-  color: #ea4c89;
-}
-
-.in {
-  color: #FFEB3B;
-}
-
-.dr {
-  color: #ea4c89;
-}
-
-.ln {
-  color: #8BC34A;
-}
-
-.gh {
-  color: #fff;
-}
 </style>
