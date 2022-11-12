@@ -7,14 +7,14 @@ const workspaceTypes = [
   {
     title: 'Noteworthy technology acquisitions 2021',
     description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-    img: '/images/landing/clients/volunteers.svg',
+    img: '/images/workspace/clients/volunteers.svg',
     btnText: 'For volunteers',
     link: '/workspace/volunteers'
   },
   {
     title: 'Noteworthy technology acquisitions 2021',
     description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-    img: '/images/landing/clients/ngo.svg',
+    img: '/images/workspace/clients/ngo.svg',
     btnText: 'For NGO',
     link: '/workspace/ngo'
   },
@@ -28,7 +28,7 @@ const workspaceTypes = [
   {
     title: 'Noteworthy technology acquisitions 2021',
     description: 'Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.',
-    img: '/images/landing/clients/startups.svg',
+    img: '/images/workspace/clients/startups.svg',
     btnText: 'For startups',
     link: '/workspace/startups'
   },
