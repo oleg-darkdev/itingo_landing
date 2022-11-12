@@ -7,13 +7,13 @@
 		Nasza tablica robocza dla  projektów organizacji pozarządowych
     <span style="" class="text-logo-letter-spacing text-viol text-stantley">ITingo</span>
     </h2> -->
+
 <slot name="title"> 
     
 </slot>
 <iframe class="lg:w-8/12 w-full rounded-xl " src="{boardLink}">
 
 </iframe>
-
 
 <style>
     iframe {
