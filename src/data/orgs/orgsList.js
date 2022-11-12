@@ -1,9 +1,9 @@
 import fiveAlt from './organisationList/5alt'
 
 
-const orgsList = [
+const orgsList = {
 	fiveAlt
-];
+};
 
 
 export default orgsList;

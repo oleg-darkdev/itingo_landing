@@ -1,10 +1,7 @@
 class Org {
 	constructor() {
 		this.bio = {
-			description: [
-				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-				'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. '
-			],
+
 			category: ['lorem', 'dolor'], // sport, Kultura i sztuka, LGBT, Zwierzęta, środowisko, Edukacja, Dom Sąsiedzki
 			nameOrg: 'Lorem ipsum dolor',
 			// helloMessage:
@@ -35,7 +32,9 @@ class Org {
 			social: {
 				facebook: '',
 				site: '',
-				linkedIn: ''
+				linkedIn: '',
+				instagram: '',
+				twitter: ''
 			},
 			addres: '1 maja 12',
 			index: '81-828',
@@ -45,6 +44,7 @@ class Org {
 			krs: '32742379832234'
 		};
 		this.report = {
+			name: '',
 			datePublic: '',
 			dateStart: '',
 			dateEnd: '',
@@ -52,53 +52,34 @@ class Org {
 			trelloBoard: '',
 			gitHub: '',
 			site: '',
-			workType: {
-				frontend: {
-					create: false,
-					update: false,
-					domain: false,
-					other: false
-				},
-				backend: {
-					routing: false,
-					db: false
-				},
-				design: {
-					presentation: false,
-					socialMedia: false,
-					poster: false,
-					visiteCard: false,
-					emailTemplate: false
-				},
-				consulting: {
-					analyseConsulting: false,
-					hacking: false
-				},
-				security: {
-					tools: false,
-					site: false,
-					other: false
-				},
-				seo: {
-					analyseConsulting: false,
-					write: false,
-					update: false
-				},
-				projecting: {
-					uxUi: false,
-					brandBook: false,
-					update: false
-				},
-
-				other: ['', ''],
-				logos: ['', ''],
-				images: ['', '']
-			},
+			budget: 0,
+			sponsors: [
+				{
+					title: '',
+					id: '',
+					logo: '',
+					link: ''
+				}
+			],
+			partners: [
+				{
+					title: '',
+					id: '',
+					logo: '',
+					link: ''
+				}
+			],
+			workType: [
+				{
+					title: '1',
+					tasks: ['']
+				}
+			],
 			textForSite: [
 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 			]
 		};
-		this.benefitsVolunteering = {
+		this.benefits = {
 			bussines: [''],
 			ngo: ['']
 		};
@@ -132,7 +113,7 @@ class Org {
 	get report() {
 		return this._report;
 	}
-	get benefitsVolunteering() {
+	get benefits() {
 		return this._benefitsVolunteering;
 	}
 	get readyToPay() {
@@ -151,9 +132,9 @@ class Org {
 		this._orgContacts = value;
 	}
 	set report(value) {
-		this.report = value;
+		this._report = value;
 	}
-	set benefitsVolunteering(value) {
+	set benefits(value) {
 		this._benefitsVolunteering = value;
 	}
 	set readyToPay(value) {
@@ -163,6 +144,6 @@ class Org {
 
 
 
-export default org;
+export default Org;
 
 
