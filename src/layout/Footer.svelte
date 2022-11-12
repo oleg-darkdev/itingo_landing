@@ -267,8 +267,3 @@
 
 
 
-<style>
-  .logo-partners:hover {
-
-}
-</style>
