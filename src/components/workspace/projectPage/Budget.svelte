@@ -5,12 +5,7 @@
 
 
 <a class="m-4 bg-viol rounded-lg border border-gray-200   shadow-md flex w-auto flex-col  p-4 sm:p-6 ">
-        <h3 class="text-2xl  text-center font-bold tracking-tight text-lightYellow ">
-            Budżet projektu
-        </h3> 
-    <span class="mb-6 text-8xl font-black text-center tracking-tight text-white">
-        {report.budget}
-    </span>
+
     
     <div style="" class="max-w-sm">
     <div class="flex flex-col items-center">

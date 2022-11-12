@@ -3,7 +3,7 @@
 export let contact;
 </script>
 
-<a class="bg-viol m-4  rounded-lg border border-gray-200  shadow-md flex max-w-sm flex-col  p-4 sm:p-6 ">
+<a class="bg-viol m-4 contacts-wrap rounded-lg border border-gray-200  shadow-md flex max-w-sm flex-col  p-4 sm:p-6 ">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white ">
         Skontaktuj się
     </h5> 
@@ -30,6 +30,9 @@ export let contact;
 
 
 <style>
+    .contacts-wrap {
+        max-height: 300px;
+    }
     .icon-contacts-org  {
       color: #FFC800;
 
