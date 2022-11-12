@@ -25,7 +25,9 @@
 
 <ImpactSection />
 
-<TrelloBoardSection />
+<section class="flex items-center flex-col lg:p-20 p-4 bg-lightYellow" >
+	<TrelloBoardSection boardLink='https://trello.com/b/2RHOp366.html'/>
+</section>
 
 <StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
 	<!-- <svelte:fragment slot="block">
