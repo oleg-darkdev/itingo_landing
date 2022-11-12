@@ -1,11 +1,10 @@
 class Org {
 	constructor() {
 		this.bio = {
-
 			category: ['lorem', 'dolor'], // sport, Kultura i sztuka, LGBT, Zwierzęta, środowisko, Edukacja, Dom Sąsiedzki
 			nameOrg: 'Lorem ipsum dolor',
 			// helloMessage:
-				// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			// 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 			id: 'Lorem ipsum dolor',
 			since: '2022',
 			activities: [
@@ -16,7 +15,11 @@ class Org {
 						'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 				}
 			],
-			authOnPlatform: false
+			authOnPlatform: false,
+			addres: '1 maja 12',
+			index: '81-828',
+			town: 'Sopot',
+			areaOfOperation: 'Sopot'
 		};
 		this.orgContacts = {
 			number: '+48234324232',
@@ -36,14 +39,12 @@ class Org {
 				instagram: '',
 				twitter: ''
 			},
-			addres: '1 maja 12',
-			index: '81-828',
-			town: 'Sopot',
-			areaOfOperation: 'Sopot',
+
 			nip: '1231231321',
 			krs: '32742379832234'
 		};
 		this.report = {
+			size: '',
 			name: '',
 			datePublic: '',
 			dateStart: '',
@@ -52,6 +53,7 @@ class Org {
 			trelloBoard: '',
 			gitHub: '',
 			site: '',
+			zoom: '',
 			budget: 0,
 			sponsors: [
 				{
@@ -62,6 +64,14 @@ class Org {
 				}
 			],
 			partners: [
+				{
+					title: '',
+					id: '',
+					logo: '',
+					link: ''
+				}
+			],
+			localPartners: [
 				{
 					title: '',
 					id: '',

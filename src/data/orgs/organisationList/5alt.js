@@ -3,6 +3,7 @@ import OrgClass from '../orgClass';
 let org = new OrgClass();
 
 org.bio.id = '5-alternatyw';
+org.bio.category = ['Dom Sąsiedzki', 'Edukacja', 'Kultura i sztuka'];
 org.bio.activities = [
 	{
 		link: '',
@@ -66,20 +67,40 @@ org.report.site = '';
 	// },
 
 org.report = {
-	name: 'Lorem',
-	datePublic: '',
-	dateStart: '',
-	dateEnd: '',
+	size: 'small',
+	name: '5.ALT',
+	datePublic: '10.10.2022',
+	dateStart: '12.10.2022',
+	dateEnd: '12.12.2022',
 	status: false,
-	trelloBoard: '',
-	gitHub: '',
-	site: '',
+	trelloBoard: 'https://trello.com/b/2AJf3hCu.html',
+	gitHub: 'https://github.com/oleg-darkdev/5_alternative',
+	site: 'https://alternatywy.herokuapp.com',
+	zoom: 'https://us04web.zoom.us/j/77202985735?pwd=Y7854aXDa28E320xsyKWdp5aNwdCRw.1',
 	budget: 1000,
-	sponsors: [
-		{
+	generalSponsor: {
 			title: '',
 			id: '',
 			logo: '/images/workspace/our_family/sponsors_logos/general_sponsor.svg',
+			link: ''
+		},
+	sponsors: [
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
 			link: ''
 		}
 	],
@@ -87,49 +108,87 @@ org.report = {
 		{
 			title: '44 Cubes',
 			id: 'as213123123213',
-			logo: '/images/workspace/our_family/partners_logos/cubes_partner.svg',
+			logo: '/images/logo_empty_del.svg',
 			link: ''
 		},
 		{
 			title: '44 Cubes',
 			id: 'as213123123213',
-			logo: '/images/workspace/our_family/partners_logos/cubes_partner.svg',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		}
+	],
+	localPartners: [
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
+			link: ''
+		},
+		{
+			title: '44 Cubes',
+			id: 'as213123123213',
+			logo: '/images/logo_empty_del.svg',
 			link: ''
 		}
 	],
 	workType: [
 		{
 			title: '1',
-			tasks: ['101', '102', '103']
+			tasks: ['101', '102', '103'] // '104', '105', '106', '107', '108'
 		},
 		{
 			title: '2',
-			tasks: ['201', '202', '203', '204', '205', '206']
+			tasks: ['201', '202', '203', '204', '205', '206'] // '104', '105', '206', '207', '208'
 		},
 
 		{
 			title: '3',
-			tasks: ['301', '302', '303', '304', '305', '306']
+			tasks: ['301', '302', '303', '304', '305', '306'] // '704', '705', '706', '707', '708'
 		},
 		{
 			title: '4',
-			tasks: ['401', '402', '403', '404']
+			tasks: ['401', '402', '403', '404'] // '704', '705', '706', '707', '708'
 		},
 		{
 			title: '5',
-			tasks: ['501', '502', '503', '504']
+			tasks: ['501', '502', '503', '504'] // '704', '705', '706', '707', '708'
 		},
 		{
 			title: '6',
-			tasks: ['601', '602', '603']
+			tasks: ['601', '602', '603'] // '704', '705', '706', '707', '708'
 		},
 		{
 			title: '7',
-			tasks: ['701', '702', '703', '704', '705', '706', '707', '708']
+			tasks: ['701', '702', '703'] // '704', '705', '706', '707', '708'
 		},
 		{
 			title: '8',
-			tasks: ['801', '802', '803', '804', '805', '806', '807', '808']
+			tasks: ['801', '802', '803'] // '804', '805', '806', '807', '808'
 		}
 	]
 };
