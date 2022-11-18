@@ -20,6 +20,31 @@
         /* padding: 50px 0 0 0; */
 		
 	}
+	:global(.faq-bg-volunteers) { 
+		background-image: url(/images/faq/faq-vols.svg);
+	}
+	:global(.faq-bg-ngo) {
+		background-image: url(/images/faq/faq-ngo.svg);
+	}
+	:global(.faq-bg-partners) {
+		background-image: url(/images/faq/faq-partners.svg);
+	}
+	:global(.faq-bg-startups) {
+		background-image: url(/images/faq/faq-startups.svg);
+	}
+	
+	:global(.faq-bg-main) {
+		background-image: url(/images/faq/faq-main.svg);
+	}
+		:global(.faq-bg-workspace) {
+		background-image: url(/images/faq/faq-workspace.svg);
+	}
+
+	:global(.empty-block) {
+		max-height: 70vh;
+		height: 60vh;
+	}
+
 	:global(.justify-center, section)  {
         display: flex;
         justify-content: center;
