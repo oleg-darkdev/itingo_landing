@@ -1,8 +1,8 @@
-import fiveAlt from './organisationList/5alt'
+import fivealt from './organisationList/5alt';
 
 
 const orgsList = {
-	fiveAlt
+	fivealt
 };
 
 
