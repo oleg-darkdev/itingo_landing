@@ -12,6 +12,7 @@
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
+	import Presentation from "../components/resources/Presentation.svelte";
 </script>
 
 <svelte:head>
@@ -22,8 +23,9 @@
 
 <BannerSection bgImg='/images/ngo/banner_ngo-bg.svg'/>
 
-
 <ImpactSection />
+
+<Presentation />
 
 <section class="flex items-center flex-col lg:p-20 p-4 bg-lightYellow" >
 	<TrelloBoardSection boardLink='https://trello.com/b/2RHOp366.html'/>
