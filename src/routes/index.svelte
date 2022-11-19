@@ -12,7 +12,7 @@
 	import faqList from '../data/faq/landingFaqList';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import SupportSection from '../layout/SupportSection.svelte';
-
+	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
 
 	const supportNgo = 
 		{
@@ -31,7 +31,7 @@
 				description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 				img: 'images/support/support_ngo_domain.svg',
 				value: '45',
-				animation: 'fade-down'
+				animation: 'fade-up'
 			},
 			{
 				title: 'Strona www',
@@ -59,7 +59,7 @@
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             img: 'images/support/support_vols_food.svg',
             value: '100',
-				animation: 'fade-down'
+				animation: 'fade-up'
         },
         {
             title: 'Zakupy oprogramowania typu open source',
@@ -86,7 +86,7 @@
             description: 'Oleg być może jest kreatywnym inżynierem, ale jego gotowanie jest okropne. Nakarm Olega - smacznym obiadem.',
             img: 'images/support/support_oleg_eat.svg',
             value: '50',
-				animation: 'fade-down'
+				animation: 'fade-up'
         },
         {
             title: 'Olegowi na butlę z gazem',
@@ -114,7 +114,7 @@
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             img: 'images/support/support_itingo_code.svg',
             value: '100',
-				animation: 'fade-down'
+				animation: 'fade-up'
         },
         {
             title: 'Zakupy oprogramowania typu open source',
@@ -151,12 +151,7 @@
 </StepsSection> -->
 
 
-<!-- Closses progects --> <!-- white -->
-
-<SupportSection supportData={[supportCoordinator, supportNgo, supportITingo, supportVols,]}/> <!-- viol , -->
-
-<!-- Presentation --> <!-- white -->
-
+<SupportSection supportData={[supportCoordinator, supportNgo, supportITingo, supportVols,]}/> <!-- white -->
 
 <FeedbackSection /> <!-- yellow -->
 
