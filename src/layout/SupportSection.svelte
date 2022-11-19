@@ -5,9 +5,9 @@
 </script>
 
 
-<section id="donate" class="bg-violDark w-full p-12 flex flex-col items-center ">
+<section id="donate" class="bg-gray-200 w-full pb-12 pt-12 pr-2 pl-2 flex flex-col items-center ">
 {#each supportData as supportEl}
-<div class="lg:w-10/12 border border-gray-200  rounded-lg p-6 m-4 bg-viol shadow-lg">
+<div class="lg:w-10/12 w-full md:w-10/12 border border-gray-200 rounded-lg lg:p-6 md:p-6 mt-4 mb-4 p-2 bg-viol shadow-lg">
 <h2 class="text-4xl w-full font-semibold text-gray-100 mt-8 ">{supportEl.title}</h2>
 <p class="text-2xl  mb-4 text-gray-100 lg:w-8/12">{supportEl.description}</p>
 <div class="flex-row flex flex-wrap justify-center  mb-6">
