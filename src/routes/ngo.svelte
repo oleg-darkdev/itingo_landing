@@ -10,7 +10,6 @@
 	import faqList from '../data/faq/ngoFaqList';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
-	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 	import Presentation from "../components/resources/Presentation.svelte";
 </script>
@@ -27,9 +26,7 @@
 
 <Presentation />
 
-<section class="flex items-center flex-col lg:p-20 p-4 bg-lightYellow" >
-	<TrelloBoardSection boardLink='https://trello.com/b/2RHOp366.html'/>
-</section>
+
 
 <StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
 	<!-- <svelte:fragment slot="block">
