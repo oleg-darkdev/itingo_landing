@@ -13,8 +13,6 @@
 	<title>ITingo dla NGO</title>
 </svelte:head>
 
-
-
 <!-- 
     1. sponsors
     2. bussines partnewrs
