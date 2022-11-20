@@ -21,9 +21,6 @@
     3. ngp partners
     4. volonteers
     5. startups
-
-
-
  -->
 {#each partnersList as member}
 	<OurFamily {member} anchor='partners'/>
