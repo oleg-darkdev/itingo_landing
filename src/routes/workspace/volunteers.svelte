@@ -10,7 +10,7 @@
     howMuch: volunteerList.frontEnd.length,
     topTitle: 'Top Volunteers',
     subTitle: 'Number of volunteers available',
-    link: '/volunteers/front-end'
+    link: '/volunteer/front-end'
   };
 
 
