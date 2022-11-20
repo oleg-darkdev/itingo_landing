@@ -1,14 +1,14 @@
 {
-	"name": "5_alternative",
-	"version": "0.1.1",
-	"description": "Alternatywy 5 - Dom Sąsiedzki official site",
+	"name": "itingo",
+	"version": "0.2.0",
+	"description": "Itingo platform",
 	"author": {
 		"name": "Oleg Medvedev",
 		"email": "darkdev_brand@riseup.net",
-		"url": "https://alternatywy.herokuapp.com/"
+		"url": "https://itingo.vercel.app/"
 	},
 	"bugs": "",
-	"homepage": "https://alternatywy.herokuapp.com/",
+	"homepage": "https://itingo.vercel.app/",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev --host --port 3000",
@@ -40,8 +40,6 @@
 		"prettier-plugin-svelte": "^2.7.0",
 		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.0",
-		"svelte-heros": "^2.3.3",
-		"svelte-heros-v2": "^0.2.4",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.1.8",
 		"tslib": "^2.4.0",
