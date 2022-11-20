@@ -30,6 +30,8 @@
     <NavHamburger on:click={toggle} class1="w-full md:flex md:w-auto md:order-1"/>
   </div>
   <div class="flex items-center md:order-2">
+    <Button class="mr-4" size="md" color="yellow" href='/support'>Wspieraj </Button>
+
     <ButtonGroup>
       <Button href='/login' outline color="yellow" size="md">Sign In</Button>
       <Button href='/signup' size="md" color="yellow">Sign up</Button>
