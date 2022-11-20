@@ -42,25 +42,25 @@
 	}
 	/* benefits */
 	.technology-bg {
-		background-image: url(/images/volunteers/benefits/technology-bg.svg);
+		background-image: url(/images/volunteer/benefits/technology-bg.svg);
 	}
 	.progress-bg {
-		background-image: url(/images/volunteers/benefits/progress-bg.svg);
+		background-image: url(/images/volunteer/benefits/progress-bg.svg);
 	}
 	.begginers_help-bg {
-		background-image: url(/images/volunteers/benefits/begginers_help-bg.svg);
+		background-image: url(/images/volunteer/benefits/begginers_help-bg.svg);
 	}
 	.flexible_schedule-bg {
-		background-image: url(/images/volunteers/benefits/flexible_schedule-bg.svg);
+		background-image: url(/images/volunteer/benefits/flexible_schedule-bg.svg);
 	}
 	.mentoring-bg {
-		background-image: url(/images/volunteers/benefits/mentoring-bg.svg);
+		background-image: url(/images/volunteer/benefits/mentoring-bg.svg);
 	}
 	.technology-bg {
-		background-image: url(/images/volunteers/benefits/technology-bg.svg);
+		background-image: url(/images/volunteer/benefits/technology-bg.svg);
 	}
 	.reccomandation_letter-bg {
-		background-image: url(/images/volunteers/benefits/reccomandation_letter-bg.svg);
+		background-image: url(/images/volunteer/benefits/reccomandation_letter-bg.svg);
 	}
 
 
