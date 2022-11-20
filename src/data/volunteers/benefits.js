@@ -5,6 +5,7 @@ let benefits = [
 		description: ['Dowód doświadczenia w programowaniu oraz listy polecające do zatrudnienia.'],
 		align: 'start',
 		anchor: 'letter',
+		miniImg: 'offer_vol_letter.svg',
 		dataAboutService: [
 			{
 				title: 'Presentation',
@@ -24,7 +25,8 @@ let benefits = [
 		],
 
 		align: 'end',
-		anchor: 'mentoring-',
+		anchor: 'mentoring',
+		miniImg: 'offer_vol_mentoring.svg',
 		dataAboutService: [
 			{
 				title: 'Presentation',
@@ -45,6 +47,7 @@ let benefits = [
 
 		align: 'start',
 		anchor: 'schedule',
+		miniImg: 'offer_vol_schedule.svg',
 		dataAboutService: [
 			{
 				title: 'Presentation',
@@ -65,6 +68,7 @@ let benefits = [
 
 		align: 'end',
 		anchor: 'design',
+		miniImg: 'offer_vol_begginers_help.svg',
 		dataAboutService: [
 			{
 				title: 'Presentation',
@@ -78,6 +82,7 @@ let benefits = [
 	{
 		bgImage: 'progress-bg',
 		title: 'Nieustanny rozwój',
+		miniImg: 'offer_vol_progress.svg',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -98,6 +103,7 @@ let benefits = [
 	{
 		bgImage: 'technology-bg',
 		title: 'Swoboda wyboru technologii dla projektów',
+		miniImg: 'offer_vol_technology.svg',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
