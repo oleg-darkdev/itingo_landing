@@ -4,16 +4,16 @@
 	import ClientsSection from '../layout/landing/ClientsSection.svelte';
 	import StepsSection from '../layout/landing/StepsSection.svelte';
 	import RegistrationBlock from "../layout/landing/RegistrationBlock.svelte";
-	import ImpactSection from '../layout/landing/ImpactSection.svelte';
-	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
+	import ImpactSection from '../layout/ImpactSection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
 	import dataForTimeline from '../data/ngo/dataForTimeline';
 	import faqList from '../data/faq/landingFaqList';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import SupportSection from '../layout/SupportSection.svelte';
-	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
-
+	import OurOffer from '../layout/OurOffer.svelte';
+	
+	
 
 </script>
 
@@ -27,6 +27,8 @@
 
 <ClientsSection /> <!-- yellow -->
 
+<SupportSection /> <!-- white -->
+
 <ImpactSection /> <!-- viol -->
 
 
@@ -39,7 +41,7 @@
 </StepsSection> -->
 
 
-<SupportSection /> <!-- white -->
+<OurOffer  />
 
 <FeedbackSection /> <!-- yellow -->
 
@@ -61,9 +63,5 @@
 	.title {
 		height: 300px;
 	}
-
-
-
-
 </style>
 
