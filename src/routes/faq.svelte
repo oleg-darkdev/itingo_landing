@@ -8,7 +8,8 @@
 	import businessFaqList from '../data/faq/businessFaqList';
 	import volounteersFaqList from '../data/faq/volunteerFaqList';
 	import startupsFaqList from '../data/faq/startupsFaqList';
-	import workspaceFaqList from '../data/faq/workspaceFaqList';
+	import workspaceFaqList from '../data/faq/workspaceFaqList';\
+	import SupportSection from '../layout/SupportSection.svelte';
 </script>
 
 <svelte:head>
@@ -24,7 +25,7 @@
 <FaqSection bgImgClass='faq-bg-startups' title='Pytania i odpowiedzi dla startupow' faqList={startupsFaqList}/>
 <FaqSection bgImgClass='faq-bg-workspace' title='Pytania i odpowiedzi o workspace' faqList={workspaceFaqList}/>
 
-
+<SupportSection />
 <style>
     
 </style>

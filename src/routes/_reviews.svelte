@@ -2,7 +2,7 @@
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/landing/ContactSection.svelte';
 	import faqList from '../data/faq/ngoFaqList';
-
+	import SupportSection from '../layout/SupportSection.svelte';
 	
 </script>
 
@@ -15,6 +15,8 @@
 <!-- anchor: Feedback block for ngo -->
 
 <!-- anchor: Feedback block for volunteers -->
+
+<SupportSection />
 
 <FaqSection {faqList}/>
 

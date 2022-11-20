@@ -12,6 +12,7 @@
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 	import Presentation from "../components/resources/Presentation.svelte";
+	import SupportSection from '../layout/SupportSection.svelte';
 </script>
 
 <svelte:head>
@@ -26,7 +27,7 @@
 
 <Presentation />
 
-
+<SupportSection />
 
 <StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
 	<!-- <svelte:fragment slot="block">
