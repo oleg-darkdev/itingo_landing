@@ -10,6 +10,7 @@
 	import Presentation from "../components/resources/Presentation.svelte";
 	import Visitecard from "../components/resources/Visitecard.svelte";
 	import Logotypes from "../components/resources/Logotypes.svelte";
+	import SupportSection from "../layout/SupportSection.svelte";
 </script>
 
 
@@ -32,6 +33,8 @@
 </section>
 
 <Presentation />
+
+<SupportSection /> 
 
 <section class="flex items-center flex-col lg:p-20 p-4 bg-lightYellow" >
 	<TrelloBoardSection boardLink='https://trello.com/b/2AJf3hCu.html'>

@@ -2,7 +2,7 @@
 	import Header from '../layout/Header.svelte';
 	import BannerSection from "../layout/BannerSection.svelte";
 	import StepsSection from '../layout/landing/StepsSection.svelte';
-	import ImpactSection from '../layout/landing/ImpactSection.svelte';
+	import ImpactSection from '../layout/ImpactSection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
 	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';

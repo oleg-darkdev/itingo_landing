@@ -14,6 +14,8 @@
 	import dataForTimeline from '../data/volunteers/dataForTimeline';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
+	import ImpactSection from '../layout/ImpactSection.svelte';
+	import SupportSection from '../layout/SupportSection.svelte';
 </script>
 
 <svelte:head>
@@ -22,7 +24,7 @@
 
 <Header />
 
-<BannerSection bgImg='/images/volunteers/volunteers_banner_bg.svg'/>
+<BannerSection bgImg='/images/volunteer/volunteers_banner_bg.svg'/>
 
 <a id="start" ></a>
 <StepsSection text='Zostań wolontariuszem i rozpocznij swoją podróż w IT' {dataForTimeline}>
@@ -30,6 +32,9 @@
 
 	</svelte:fragment> -->
 </StepsSection>
+
+<!-- <ImpactSection /> -->
+<SupportSection />
 
 <div class="w-full bg-lightYellow lg:p-20 md:p-20 p-6">
 	<h2 class="lg:w-6/12 md:w-8/12 w-full text-center lg:text-6xl text-5xl text-viol font-black">
