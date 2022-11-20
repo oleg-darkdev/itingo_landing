@@ -46,7 +46,7 @@
 		height: 60vh;
 	}
 
-	@media (min-device-width: 1024){
+	@media (min-device-width: 1024px){
 		.faq-bg {
 			min-height: 100vh;
 			height: auto;
