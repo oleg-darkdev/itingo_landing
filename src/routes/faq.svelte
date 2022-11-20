@@ -8,7 +8,7 @@
 	import businessFaqList from '../data/faq/businessFaqList';
 	import volounteersFaqList from '../data/faq/volunteerFaqList';
 	import startupsFaqList from '../data/faq/startupsFaqList';
-	import workspaceFaqList from '../data/faq/workspaceFaqList';\
+	import workspaceFaqList from '../data/faq/workspaceFaqList';
 	import SupportSection from '../layout/SupportSection.svelte';
 </script>
 
