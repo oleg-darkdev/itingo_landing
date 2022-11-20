@@ -24,6 +24,8 @@
 
 <WorkspaceHeader />
 
+
+
 <Banner bgImage='/images/workspace/bg/front_end_bg.svg'/>  
 <section style="margin-top: -50px;" class="flex flex-row workspace flex justify-center  pt-4 pb-4 ">
   <WorkspaceSection sectionData={sectionDataFrontEnd}>
