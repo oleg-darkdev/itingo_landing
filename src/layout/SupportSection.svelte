@@ -202,7 +202,7 @@ const supportTypes = [
     <slot name="weDoFor">
         
     </slot>
-<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Wspieraj członków rodzinę <span class="text-logo-letter-spacing text-violDark text-stantley">ITingo</span></h2>
+<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-black ">Wspieraj członków rodzinę <span class="text-logo-letter-spacing text-violDark text-stantley">ITingo</span></h2>
 {#if !active}
 <div class="flex-row flex flex-wrap justify-center">
 {#each donateTypes as support}
@@ -270,7 +270,7 @@ const supportTypes = [
 </div>
 {/each}-->
 
-<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Jak jeszcze można wspierać</h2>
+<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-black">Jak jeszcze można wspierać</h2>
 
 <div class="lg:w-10/12 w-full md:w-10/12 flex flex-row flex-wrap border border-violDark rounded-lg lg:p-6 md:p-6 mt-4 mb-4 p-2 bg-viol shadow-lg justify-center"> 
     {#each supportTypes as support}
