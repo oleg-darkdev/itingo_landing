@@ -11,7 +11,7 @@
 	import faqList from '../data/faq/landingFaqList';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import SupportSection from '../layout/SupportSection.svelte';
-	import OurOffer from '../layout/OurOffer.svelte';
+	import OurOfferSection from '../layout/OurOfferSection.svelte';
 	
 	
 
@@ -41,7 +41,7 @@
 </StepsSection> -->
 
 
-<OurOffer  />
+<OurOfferSection  />
 
 <FeedbackSection /> <!-- yellow -->
 
