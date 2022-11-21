@@ -16,7 +16,7 @@ const vols = {
 			defaultColour: ['zakończonym projekcie', '']
 		}
 	],
-	img: '/images/landing/clients/volunteers.svg',
+	img: '/images/clients/volunteers.svg',
 	link: 'https://forms.gle/HopVuyRc8i3zi5YV7',
 	alt: 'Volunteers image',
 	animation: 'fade-left',
@@ -41,7 +41,7 @@ const ngo = {
 			defaultColour: [' chętnych', '']
 		}
 	],
-	img: '/images/landing/clients/ngo.svg',
+	img: '/images/clients/ngo.svg',
 	link: 'https://forms.gle/M5eVAR7oRuXVoder8',
 	alt: 'Ngo image',
 	animation: 'fade-up',
@@ -66,7 +66,7 @@ const bussines = {
 			defaultColour: ['w inwestycjach', '']
 		}
 	],
-	img: '/images/landing/clients/business.svg',
+	img: '/images/clients/business.svg',
 	link: '/',
 	alt: 'Business image',
 	animation: 'fade-left',
@@ -91,7 +91,7 @@ const startups = {
 			defaultColour: ['udziału', 'adasdads']
 		}
 	],
-	img: '/images/landing/clients/startups.svg',
+	img: '/images/clients/startups.svg',
 	link: '/',
 	alt: 'Startups image',
 	animation: 'fade-left',
@@ -116,7 +116,7 @@ const localPartners = {
 			defaultColour: ['udziału', 'adasdads']
 		}
 	],
-	img: '/images/landing/clients/local_partners.svg',
+	img: '/images/clients/local_partners.svg',
 	link: '/',
 	alt: 'Business image',
 	animation: 'fade-right',
