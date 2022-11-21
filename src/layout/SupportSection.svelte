@@ -4,7 +4,7 @@
    
 	const supportNgo = 
 		{
-		title: 'Pomoc w realizacji stron www dla NGO',
+		title: 'Wspieranie NGO uczestniczących w projekcie',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		donateTypes: [
 			{
@@ -32,11 +32,11 @@
 	};
 
 	const supportVols = 	{
-		title: 'Pomoc IT wolontariuszom',
-		description: 'Zebrane pieniądze przeznaczamy na wynajem serwerów i stworzenie nowych funkcjonalności dla platformy ITingo, zakup oprogramowania open-source - co pomaga nam znacznie skuteczniej pomagać organizacjom pozarządowym oraz IT wolontariaty.',
+		title: 'Wspierać IT wolontariuszy',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		donateTypes: [
         {
-            title: 'Wynajem serwera na miesiąc dla ITingo',
+            title: 'Lorem',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             img: 'images/support/support_vols_edu.svg',
             value: '40',
@@ -58,6 +58,7 @@
         }
     ]
 	}; 
+    
 	const supportCoordinator = 	{
 		title: 'Wspierać koordynatora projektu',
 		description: 'Założyciel ITingo to uchodźca polityczny z Białorusi, twórca wielu inicjatyw społecznych i po prostu niezły człowiek - potrzebujący osobistego wsparcia.',
@@ -87,7 +88,7 @@
 };
 	
 	const supportITingo = 	{
-		title: 'Udostępnij IT wolontariuszom możliwość pomagania NGO',
+		title: 'Udostępnij ITingo możliwość pomagania NGO',
 		description: 'Zebrane pieniądze przeznaczamy na wynajem serwerów i stworzenie nowych funkcjonalności dla platformy ITingo, zakup oprogramowania open-source - co pomaga nam znacznie skuteczniej pomagać organizacjom pozarządowym oraz IT wolontariaty.',
 		donateTypes: [
         {
@@ -120,31 +121,31 @@ $: active = '';
 
 const donateTypes = [
     {
-        title: 'Zakupy oprogramowania typu open source',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        title: supportCoordinator.title,
+        description: supportCoordinator.description,
         animation: 'fade-right',
-        img: 'images/support/support_itingo_server.svg',
+        img: 'images/support/support_oleg_gas.svg',
         value: supportCoordinator
     },
     {
-        title: 'Zakupy oprogramowania typu open source',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        title: supportVols.title,
+        description: supportVols.description,
         animation: 'fade-down',
-        img: 'images/support/support_itingo_server.svg',
+        img: 'images/support/support_vols_avatar.svg',
         value: supportVols
     },
     {
-        title: 'Zakupy oprogramowania typu open source',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        title: supportNgo.title,
+        description: supportNgo.description,
         animation: 'fade-up',
-        img: 'images/support/support_itingo_server.svg',
+        img: 'images/support/support_ngo_avatar.svg',
         value: supportNgo
     },
     {
-        title: 'Zakupy oprogramowania typu open source',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        title: supportITingo.title,
+        description: supportITingo.description,
         animation: 'fade-left',
-        img: 'images/support/support_itingo_server.svg',
+        img: 'images/support/support_itingo_avatar.svg',
         value: supportITingo
     },
 ];
@@ -153,59 +154,61 @@ const donateTypes = [
 
 const supportTypes = [
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Jako IT wolontariat ',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
     },
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Zostań patronem',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
     },
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Zostań partnerem lokalnym',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
     },
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Zareklamuj w mediach',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
     },
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Program 1%',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
     },
     {
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Coś wyjątkowego',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         icon: '',
         link: ''
-    },
+    }
+
+
+    
 ];
 </script>
 
   
 <section id="donate" class="bg-gray-200 w-full pb-12 pt-12 pr-2 pl-2 flex flex-col items-center ">
-<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Wspieraj ITIngo</h2>
+<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Wspieraj <span class="text-logo-letter-spacing text-violDark text-stantley">ITingo</span> rodzinę</h2>
 {#if !active}
 <div class="flex-row flex flex-wrap justify-center">
 {#each donateTypes as support}
-  <div 
-    data-aos={support.animation}
+  <div style="" data-aos={support.animation}
     data-aos-delay="100"
     data-aos-duration="1400" 
     data-aos-once="false"
     data-aos-mirror="true"  
-    class="m-1 bg-white text-white rounded-lg border border-gray-200  shadow-md flex max-w-sm flex-col">
+    class="m-1 text-white rounded-lg border border-gray-200   flex max-w-sm flex-col">
     <img  class="rounded-t-lg" src={support.img} alt={support.title}> 
-    <div class="p-4 sm:p-6 bg-viol rounded-lg">
+    <div class="p-4 sm:p-6 bg-viol  shadow-md rounded-lg">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{support.title}
       </h5> 
       <p class="mb-3 font-normal text-ext-white  leading-tight">
