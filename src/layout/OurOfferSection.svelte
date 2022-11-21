@@ -11,7 +11,7 @@
 	<div class="m-2 flex {offerData.reverse ? 'flex-row-reverse': 'flex-row'}  w-full flex-wrap justify-center content-center">
 	<div style="" class="text-wrap lg:w-4/12 md:w-12/12 w-12/12  flex justify-center items-center bg-white">
 		<div style="min-width: 320px;" class="pt-6 pb-12 text-block max-w-sm  flex flex-col items-start  rounded-xl">
-			<h2 class=" text-5xl mb-2 text-violDark  font-bold ">NASZE <br> WSPARCIE DLA <br> {offerData.title}</h2>
+			<h2 class=" text-5xl mb-2 text-violDark  font-bold ">{offerData.title[0]}  <br> {offerData.title[1]}  <br> {offerData.title[2]}</h2>
 			    <p class="font-normal text-violDark leading-tight">
 					{offerData.description}
 				</p>
