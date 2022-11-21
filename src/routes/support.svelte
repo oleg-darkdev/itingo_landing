@@ -16,8 +16,10 @@
 
 <Header />
 
-<BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/> 
+<!-- <BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/>  -->
+<section style="height: 300px; width: 100%;">
 
+</section>
 <SupportSection bgClass='bg-lightYellow'>
 	<svelte:fragment slot="weDoFor">
 		<WeDoForBlock />
