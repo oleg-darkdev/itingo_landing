@@ -62,8 +62,8 @@ const bussines = {
 			defaultColour: ['dla Waszych HR', '']
 		},
 		{
-			colored: ['Pomoc', ' w inwestycjach'],
-			defaultColour: ['w trzecim sektorze', '']
+			colored: ['Pomoc', 'w trzecim sektorze'],
+			defaultColour: ['w inwestycjach', '']
 		}
 	],
 	img: '/images/landing/clients/business.svg',
