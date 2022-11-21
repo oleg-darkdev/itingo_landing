@@ -1,5 +1,5 @@
 <script>
-  import WorkspaceHeader from "../layout/WorkspaceHeader.svelte";
+  import WorkspaceHeader from "../layout/workspace/WorkspaceHeader.svelte";
   import {  Button } from "flowbite-svelte";
   
 

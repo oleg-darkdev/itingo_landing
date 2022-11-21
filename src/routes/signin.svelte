@@ -1,5 +1,5 @@
 <script>
-	import Header from '../layout/Header.svelte';
+	import Header from '../layout/landing/Header.svelte';
 	import SignIn from '../components/auth/SignIn.svelte';
 	import { Button } from 'flowbite-svelte';
 

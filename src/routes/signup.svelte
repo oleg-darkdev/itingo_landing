@@ -1,7 +1,7 @@
 <script>
-		import Header from '../layout/Header.svelte';
+		import Header from '../layout/landing/Header.svelte';
 import SignUpNgo from '../components/auth/SignUp/Ngo.svelte';
-	import { Button, Radio } from 'flowbite-svelte';
+	import { Button } from 'flowbite-svelte';
 
 
 	let chooseType = '';

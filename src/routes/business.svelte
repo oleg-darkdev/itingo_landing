@@ -1,11 +1,11 @@
 <script>
-	import BannerSection from "../layout/BannerSection.svelte";
-	import FaqSection from '../layout/FaqSection.svelte';
-	import Header from '../layout/Header.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import Header from '../layout/landing/Header.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';
 	
 	
-	import faqList from '../data/faq/businessFaqList';
+	import faqList from '../data/landing/faq/businessFaqList';
 
 </script>
 

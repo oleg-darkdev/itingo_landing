@@ -1,7 +1,7 @@
 <script>
     import { Button } from 'flowbite-svelte';
-	import offertsData from '../data/offertsData/offerts';	
-	import ClientBenefitsList from '../components/landing/ClientBenefitsList.svelte';
+	import offertsData from '../../data/landing/offertsData/offerts';	
+	import ClientBenefitsList from '../../components/landing/main/ClientBenefitsList.svelte';
 </script>
 
 <section class="mt-20 mb-20 w-full flex flex-col ">

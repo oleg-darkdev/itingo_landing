@@ -1,17 +1,17 @@
 <script>
-	import Header from '../layout/Header.svelte';
-	import BannerSection from "../layout/BannerSection.svelte";
+	import Header from '../layout/landing/Header.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import SupportSection from '../layout/landing/SupportSection.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';
+	import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
 
-	import FaqSection from '../layout/FaqSection.svelte';
-	import mainfaqList from '../data/faq/landingFaqList';
-	import ngoFaqList from '../data/faq/ngoFaqList';
-	import businessFaqList from '../data/faq/businessFaqList';
-	import volounteersFaqList from '../data/faq/volunteerFaqList';
-	import startupsFaqList from '../data/faq/startupsFaqList';
-	import workspaceFaqList from '../data/faq/workspaceFaqList';
-	import SupportSection from '../layout/SupportSection.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
-	import WeDoForBlock from '../components/WeDoForBlock.svelte';
+	import mainfaqList from '../data/landing/faq/landingFaqList';
+	import ngoFaqList from '../data/landing/faq/ngoFaqList';
+	import businessFaqList from '../data/landing/faq/businessFaqList';
+	import volounteersFaqList from '../data/landing/faq/volunteerFaqList';
+	import startupsFaqList from '../data/landing/faq/startupsFaqList';
+	import workspaceFaqList from '../data/landing/faq/workspaceFaqList';
 </script>
 
 <svelte:head>

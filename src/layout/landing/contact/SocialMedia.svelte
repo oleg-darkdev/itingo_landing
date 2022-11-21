@@ -1,5 +1,5 @@
 <script>
-  import socialItingoLinks from '../../data/socialItingoLinks';
+  import socialItingoLinks from '../../../data/landing/socialItingoLinks';
 </script>
 
 <div class="wrap-social-container mb-8 flex-col items-center justify-center">

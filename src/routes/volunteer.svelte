@@ -1,22 +1,21 @@
 <script>
-	import Header from '../layout/Header.svelte';
-
-	import BannerSection from "../layout/BannerSection.svelte";
-	import StepsSection from '../layout/StepsSection.svelte';
+	import Header from '../layout/landing/Header.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import StepsSection from '../layout/landing/StepsSection.svelte';
 	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
-	import FaqSection from '../layout/FaqSection.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';
+	import FeedbackSection from "../layout/landing/FeedbackSection.svelte";
+	import WorkBannerSection from '../layout/landing/ngo/WorkBannerSection.svelte';
+	import ImpactSection from '../layout/landing/ImpactSection.svelte';
+	import SupportSection from '../layout/landing/SupportSection.svelte';
+	import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
 
-	import benefits from '../data/volunteers/benefits';
-	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
-	import workTypes from '../data/ngo/workTypes';
-	import faqList from '../data/faq/volunteerFaqList';
-	import dataForTimeline from '../data/volunteers/dataForTimeline';
-	import FeedbackSection from "../layout/FeedbackSection.svelte";
-	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
-	import ImpactSection from '../layout/ImpactSection.svelte';
-	import SupportSection from '../layout/SupportSection.svelte';
-	import WeDoForBlock from '../components/WeDoForBlock.svelte';
+	import benefits from '../data/landing/volunteers/benefits';
+	import TypesOfWorks from '../layout/landing/ngo/TypesOfWorks.svelte';
+	import workTypes from '../data/landing/ngo/workTypes';
+	import faqList from '../data/landing/faq/volunteerFaqList';
+	import dataForTimeline from '../data/landing/volunteers/dataForTimeline';
 </script>
 
 <svelte:head>

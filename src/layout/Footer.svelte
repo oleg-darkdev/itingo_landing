@@ -1,7 +1,6 @@
 <script>
-  import socialItingoLinks from '../data/socialItingoLinks';
-  import ourFamily from '../data/ourFamily';
-
+  import socialItingoLinks from '../data/landing/socialItingoLinks';
+  import ourFamily from '../data/landing/ourFamily';
 </script>
 
 <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 bg-viol">

@@ -1,4 +1,4 @@
-import volunteers from './volunteersList'; // переделать
+import volunteers from '../workspace/volunteersList'; // переделать
 import partners from './ourFamily/partners/partnersList';
 import sponsors from './ourFamily/sponsors/sponsorsList';
 // import ngo from './ourFamily/ngo/orgsList'; // рефакторинг дирректории

@@ -6,17 +6,18 @@
     import Budget from "../../components/workspace/projectPage/Budget.svelte";
     import WorkTypeCard from "../../components/workspace/projectPage/WorkTypeCard.svelte";
     import VolunteerСard from '../../components/workspace/VolunteerСard.svelte';
-    import ContactSection from "../../layout/ContactSection.svelte";
-    import WorkspaceHeader from "../../layout/WorkspaceHeader.svelte";
+    import ContactSection from "../../layout/landing/ContactSection.svelte";
+    import WorkspaceHeader from "../../layout/workspace/WorkspaceHeader.svelte";
 	import TrelloBoardSection from '../../layout/workspace/TrelloBoardSection.svelte';
     import Partner from '../../components/workspace/projectPage/Partner.svelte';
-    import orgsList  from '../../data/orgs/orgsList';
-    import volunteerList from '../../data/volunteersList';
-    import tasksList from "../../data/progectPage/tasksList";
-    import FeedbackSection from "../../layout/FeedbackSection.svelte";
-    
+    import FeedbackSection from "../../layout/landing/FeedbackSection.svelte";
 
-    let project = orgsList[$page.params.project];
+    import orgsList  from '../../data/workspace/orgs/orgsList';
+    import volunteerList from '../../data/workspace/volunteersList';
+    import tasksList from "../../data/workspace/progectPage/tasksList";  
+
+
+    let progect = orgsList[$page.params.progect];
     const progectData = {
         story: [
         'Organizacja Alternatywy 5, sąsiedzki dom w kamiennym potoku - od 2 lat organizuje warsztaty i wnosi wkład w rozwój społeczności lokalnej. Po raz kolejny przyszedł gość i zapytał: jak mogę znaleźć Alternatywy 5 w internecie? Sytuacja była dość niezręczna, bo nie było nawet logo.',
@@ -31,6 +32,7 @@
         name: 'Strona internetowa'
     };
 
+    
 
     function convertCodeToText (element, taskType) {
         element.title = taskType.title;
@@ -81,28 +83,30 @@
 
 	
     function converterTaskTypes () {
-        project.report.workType.forEach((workType, workNumber) => {
+        progect.report.workType.forEach((workType, workNumber) => {
            return workType[workNumber] = identifyTypeWork(workType);
         }); 
-        return project.report.workType;
+        return progect.report.workType;
     }
 </script>
 
 <svelte:head>
-	<title>{project.report.name}</title>
+	<title>{progect.report.name}</title>
 </svelte:head>
 
+
 <WorkspaceHeader />
+
 
 <section class="lg:p-12 pt-4 pb-4">
     <div class=" flex flex-row flex-wrap justify-center ">
         <AboutProgect 
-            bio={project._bio}
-            report={project._report}/>
+            bio={progect._bio}
+            report={progect._report}/>
 
         <!-- <div class="flex flex-col"> -->
             <StoryTailing text={progectData.story} />
-            <ContactOrganisation contact={project._orgContacts}/>
+            <ContactOrganisation contact={progect._orgContacts}/>
         <!-- </div> -->
     </div>
 </section>
@@ -112,21 +116,21 @@
         Budżet projektu     
     </h3> 
     <span class=" text-6xl mb-8  font-black  tracking-tight text-white ">
-        {project._report.budget} PLN
+        {progect._report.budget} PLN
     </span>
     <div class="flex mb-6 flex-col items-center">
         <h3 class="text-2xl  font-bold tracking-tight text-lightYellow ">
             Generalny sponsor projektu
         </h3> 
         <div class="flex-row flex flex-wrap">
-            <a href={project._report.generalSponsor.link}>
-                <img style="width: 400px; " class="logo-partners" src={project._report.generalSponsor.logo} alt={project._report.generalSponsor.title}>
+            <a href={progect._report.generalSponsor.link}>
+                <img style="width: 400px; " class="logo-partners" src={progect._report.generalSponsor.logo} alt={progect._report.generalSponsor.title}>
             </a>
         </div>
     </div>
-    <Partner title='Sponsorzy projektu' partners={project._report.sponsors}/>
-    <Partner title='Partnerzy projektu' partners={project._report.partners}/>
-    <Partner title='Lokalni partnerzy projektu' partners={project._report.localPartners}/>
+    <Partner title='Sponsorzy projektu' partners={progect._report.sponsors}/>
+    <Partner title='Partnerzy projektu' partners={progect._report.partners}/>
+    <Partner title='Lokalni partnerzy projektu' partners={progect._report.localPartners}/>
 </section>
 
 <section class="p-12 bg-lightYellow flex flex-col items-center">
@@ -136,7 +140,7 @@
     <div class="flex flex-row flex-wrap justify-center w-full">
         {#await converterTaskTypes()}
             <p>...waiting</p>
-        {:then project}
+        {:then progect}
             {#each converterTaskTypes() as workTask}
                 <WorkTypeCard {workTask}/>
             {/each}
@@ -145,7 +149,7 @@
 </section>
 
 <section class="flex items-center flex-col lg:p-12 p-4 " >
-    <TrelloBoardSection boardLink={project._report.trelloBoard}>
+    <TrelloBoardSection boardLink={progect._report.trelloBoard}>
         <h2 class="lg:w-10/12 w-full m-8 text-center lg:text-6xl text-4xl text-viol font-bold " slot='title'>
             Aktualny status zrealizowanych zadań projektowych na Trello
         </h2> 

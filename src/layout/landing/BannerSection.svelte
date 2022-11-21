@@ -1,6 +1,6 @@
 <script>
-    import HelloSection from '../layout/landing/HelloSection.svelte';
-    import SocialMedia from "../layout/contact/SocialMedia.svelte";
+    // import HelloSection from './main/HelloSection.svelte';
+    import SocialMedia from "./contact/SocialMedia.svelte";
 
 	export let bgImg;
 </script>

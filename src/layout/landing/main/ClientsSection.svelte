@@ -1,6 +1,6 @@
 <script>
-	import OurClientsSection from '../../components/landing/OurClientsSection.svelte';
-	import VoivodeshipsClients from '../../components/VoivodeshipsClients.svelte';
+	import OurClientsSection from '../../../components/landing/main/OurClientsSection.svelte';
+	import VoivodeshipsClients from '../../../components/landing/VoivodeshipsClients.svelte';
 </script>
 
 

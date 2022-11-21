@@ -1,6 +1,6 @@
 <script>
     import { Button } from 'flowbite-svelte';
-	import WorkList from '../../components/ngo/WorkList.svelte';
+	import WorkList from '../../../components/landing/ngo/WorkList.svelte';
 
 	export let typeWork, btnLink;
 </script>

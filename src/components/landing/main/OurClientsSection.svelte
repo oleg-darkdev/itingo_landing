@@ -1,8 +1,7 @@
 <script>
     import { Button } from "flowbite-svelte";
 	import ClientBenefitsList from "./ClientBenefitsList.svelte";
-	import { clientTypes } from '../../data/offertsData/clientTypes';
-    
+	import { clientTypes } from '../../../data/landing/offertsData/clientTypes';
 </script>
 
 

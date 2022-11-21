@@ -1,6 +1,6 @@
 <script>
-    import Impact from '../components/landing/Impact.svelte';
-	import TrelloBoardSection from './workspace/TrelloBoardSection.svelte';
+    import Impact from '../../components/landing/main/Impact.svelte';
+	import TrelloBoardSection from '../workspace/TrelloBoardSection.svelte';
 </script>
 
 

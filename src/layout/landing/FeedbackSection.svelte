@@ -1,5 +1,5 @@
 <script>
-  import feedbacksList from '../data/feedbacksList';
+  import feedbacksList from '../../data/landing/feedbacksList';
   import { Avatar, Card, Button  } from "flowbite-svelte";
 </script>
 

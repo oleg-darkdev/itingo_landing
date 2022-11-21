@@ -1,8 +1,8 @@
 <script>
-	import FaqSection from '../layout/FaqSection.svelte';
+	import FaqSection from '../layout/landing/FaqSection.svelte';
 	import ContactSection from '../layout/landing/ContactSection.svelte';
-	import faqList from '../data/faq/ngoFaqList';
-	import SupportSection from '../layout/SupportSection.svelte';
+	import faqList from '../data/landing/faq/ngoFaqList';
+	import SupportSection from '../layout/landing/SupportSection.svelte';
 	
 </script>
 

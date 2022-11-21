@@ -1,5 +1,5 @@
 <script>
-  import socialCordinatorLinks from '../../data/socialCordinatorLinks'
+  import socialCordinatorLinks from '../../../data/landing/socialCordinatorLinks';
 </script>
 
 <div data-aos="flip-up"

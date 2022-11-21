@@ -1,13 +1,13 @@
 <script>
-	import FaqSection from '../layout/FaqSection.svelte';
+	import FaqSection from '../layout/landing/FaqSection.svelte';
 	import ContactSection from '../layout/landing/ContactSection.svelte';
-
-	import OurFamily from '../layout/ngo/OurFamily.svelte';
-	import partnersList from '../data/ngo/partnersList';
-	import faqList from '../data/faq/ngoFaqList';
-	import SupportSection from '../layout/SupportSection.svelte';
-	import ClientsSection from '../layout/landing/ClientsSection.svelte';
-	import WeDoForBlock from '../components/WeDoForBlock.svelte';
+	import OurFamily from '../layout/landing/ngo/OurFamily.svelte';
+	import SupportSection from '../layout/landing/SupportSection.svelte';
+	import ClientsSection from '../layout/landing/main/ClientsSection.svelte';
+	import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
+// ../data/landing/ngo/partnersList
+	import partnersList from '../data/landing/ngo/partnersList';
+	import faqList from '../data/landing/faq/ngoFaqList';
 </script>
 
 <svelte:head>

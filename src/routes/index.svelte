@@ -1,15 +1,15 @@
 <script>
-    import Header from '../layout/Header.svelte';
-	import BannerSection from "../layout/BannerSection.svelte";
-	import ClientsSection from '../layout/landing/ClientsSection.svelte';
-	import ImpactSection from '../layout/ImpactSection.svelte';
-	import FaqSection from '../layout/FaqSection.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';	
-	import faqList from '../data/faq/landingFaqList';
-	import FeedbackSection from "../layout/FeedbackSection.svelte";
-	import SupportSection from '../layout/SupportSection.svelte';
-	import OurOfferSection from '../layout/OurOfferSection.svelte';
-	import WeDoForBlock from '../components/WeDoForBlock.svelte';
+    import Header from '../layout/landing/Header.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import ClientsSection from '../layout/landing/main/ClientsSection.svelte';
+	import ImpactSection from '../layout/landing/ImpactSection.svelte';
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';	
+	import faqList from '../data/landing/faq/landingFaqList';
+	import FeedbackSection from "../layout/landing/FeedbackSection.svelte";
+	import SupportSection from '../layout/landing/SupportSection.svelte';
+	import OurOfferSection from '../layout/landing/OurOfferSection.svelte';
+	import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
 </script>
 
 <svelte:head>
@@ -43,6 +43,8 @@
 
 
 <OurOfferSection  />
+
+
 
 <FeedbackSection /> <!-- yellow -->
 

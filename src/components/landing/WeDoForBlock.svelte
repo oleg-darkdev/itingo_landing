@@ -1,6 +1,6 @@
 <script>
     import { Button } from "flowbite-svelte"; 
-    import socialItingoLinks from '../data/socialItingoLinks';
+    import socialItingoLinks from '../../data/landing/socialItingoLinks';
 
     let showOptionsList = false;
 </script>

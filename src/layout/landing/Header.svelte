@@ -30,7 +30,7 @@
     <!-- <NavLi href="/startups">Startapam</NavLi> -->
     <NavLi href="/volunteer">IT wolontariutu</NavLi>
     <NavLi href="/business">Biznesu</NavLi> 
-    <NavLi href="/our-family">Nasza rodzina</NavLi>
+    <NavLi href="/family">Nasza rodzina</NavLi>
     <NavLi href="/faq">FAQ</NavLi>
     <NavLi href="#contact">Kontakt</NavLi>
     <div>

@@ -1,9 +1,11 @@
 <script>
-  import WorkspaceSection from "../../layout/WorkspaceSection.svelte";
-  import WorkspaceHeader from "../../layout/WorkspaceHeader.svelte";
+  import WorkspaceSection from "../../layout/workspace/WorkspaceSection.svelte";
+  import WorkspaceHeader from "../../layout/workspace/WorkspaceHeader.svelte";
+  import Banner from "../../layout/workspace/Banner.svelte";
+  import FiltreVolunteers from '../../components/workspace/FiltreVolunteers.svelte';
   
   import VolunteerСard from '../../components/workspace/VolunteerСard.svelte';
-  import volunteerList from '../../data/volunteersList';
+  import volunteerList from '../../data/workspace/volunteersList';
 
   let sectionDataFrontEnd = {
     title: 'Front end',
@@ -15,16 +17,9 @@
 
 
   let topVolsFront = volunteerList.frontEnd.slice(0,2);
-
-
-
- import Banner from "../../layout/workspace/Banner.svelte";
- import FiltreVolunteers from '../../components/workspace/FiltreVolunteers.svelte';
 </script>
 
 <WorkspaceHeader />
-
-
 
 <Banner bgImage='/images/workspace/bg/front_end_bg.svg'/>  
 <section style="margin-top: -50px;" class="flex flex-row workspace flex justify-center  pt-4 pb-4 ">

@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-import Volunteer from './volunteers/volunteer';
+import Volunteer from './volunteer';
 
 let volunteer1 = new Volunteer(faker),
     volunteer2 = new Volunteer(faker),

@@ -1,9 +1,9 @@
 <script>
-    import Header from '../layout/Header.svelte';
-	import BannerSection from "../layout/BannerSection.svelte";
-    import WeDoForBlock from '../components/WeDoForBlock.svelte';
-    import FeedbackSection from "../layout/FeedbackSection.svelte";
-    import ContactSection from '../layout/ContactSection.svelte';	
+    import Header from '../layout/landing/Header.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+    import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
+    import FeedbackSection from "../layout/landing/FeedbackSection.svelte";
+    import ContactSection from '../layout/landing/ContactSection.svelte';	
 </script>
 
 <svelte:head>

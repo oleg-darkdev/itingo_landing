@@ -1,16 +1,16 @@
 <script>
-	import BannerSection from "../layout/BannerSection.svelte";
-	import FaqSection from '../layout/FaqSection.svelte';
-	import Header from '../layout/Header.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import Header from '../layout/landing/Header.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';
 	import TrelloBoardSection from '../layout/workspace/TrelloBoardSection.svelte';
-	
-	import faqList from '../data/faq/landingFaqList';
-	import Description from "../components/resources/Description.svelte";
-	import Presentation from "../components/resources/Presentation.svelte";
-	import Visitecard from "../components/resources/Visitecard.svelte";
-	import Logotypes from "../components/resources/Logotypes.svelte";
-	import SupportSection from "../layout/SupportSection.svelte";
+	import SupportSection from "../layout/landing/SupportSection.svelte";	
+	import Description from "../components/landing/resources/Description.svelte";
+	import Presentation from "../components/landing/resources/Presentation.svelte";
+	import Visitecard from "../components/landing/resources/Visitecard.svelte";
+	import Logotypes from "../components/landing/resources/Logotypes.svelte";
+
+	import faqList from '../data/landing/faq/landingFaqList';
 </script>
 
 

@@ -22,15 +22,15 @@ const offertsList = [
 		reverse: true,
 		benefitsText: ngo.listText
 	},
-	// {
-	// 	title: ['NASZA', 'OFERTA ', 'DLA BIZNESU'],
-	// 	description:
-	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-	// 	link: '/business',
-	// 	offerList: volsBenefits,
-	// 	reverse: false,
-	// 	benefitsText: bussines.listText
-	// }
+	{
+		title: ['NASZA', 'OFERTA ', 'DLA BIZNESU'],
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+		link: '/business',
+		offerList: volsBenefits,
+		reverse: false,
+		benefitsText: bussines.listText
+	}
 ];
 
 

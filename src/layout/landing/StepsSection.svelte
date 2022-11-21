@@ -1,5 +1,5 @@
 <script>
-    import Timeline from '../components/landing/Steps.svelte';
+    import Timeline from '../../components/landing/main/Steps.svelte';
 
 	export let text, dataForTimeline;
 </script>

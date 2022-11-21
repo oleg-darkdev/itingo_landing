@@ -1,5 +1,5 @@
 <script>
-    import Faq from '../components/faq/Faq.svelte';
+    import Faq from '../../components/landing/faq/Faq.svelte';
 	
 	export let faqList, title = 'Pytania i odpowiedzi', bgImgClass;
 </script>

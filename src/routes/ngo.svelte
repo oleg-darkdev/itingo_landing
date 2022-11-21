@@ -1,19 +1,20 @@
 <script>
-	import Header from '../layout/Header.svelte';
-	import BannerSection from "../layout/BannerSection.svelte";
-	import StepsSection from '../layout/StepsSection.svelte';
-	import ImpactSection from '../layout/ImpactSection.svelte';
-	import FaqSection from '../layout/FaqSection.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
-	import TypesOfWorks from '../layout/ngo/TypesOfWorks.svelte';
-	import workTypes from '../data/ngo/workTypes';
-	import faqList from '../data/faq/ngoFaqList';
-	import dataForTimeline from '../data/ngo/dataForTimeline';
-	import FeedbackSection from "../layout/FeedbackSection.svelte";
-	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
-	import Presentation from "../components/resources/Presentation.svelte";
-	import SupportSection from '../layout/SupportSection.svelte';
-	import WeDoForBlock from '../components/WeDoForBlock.svelte';
+	import Header from '../layout/landing/Header.svelte';
+	import BannerSection from "../layout/landing/BannerSection.svelte";
+	import StepsSection from '../layout/landing/StepsSection.svelte';
+	import ImpactSection from '../layout/landing/ImpactSection.svelte';
+	import FaqSection from '../layout/landing/FaqSection.svelte';
+	import ContactSection from '../layout/landing/ContactSection.svelte';
+	import TypesOfWorks from '../layout/landing/ngo/TypesOfWorks.svelte';
+	import FeedbackSection from "../layout/landing/FeedbackSection.svelte";
+	import WorkBannerSection from '../layout/landing/ngo/WorkBannerSection.svelte';
+	import Presentation from "../components/landing/resources/Presentation.svelte";
+	import SupportSection from '../layout/landing/SupportSection.svelte';
+	import WeDoForBlock from '../components/landing/WeDoForBlock.svelte';
+
+	import workTypes from '../data/landing/ngo/workTypes';
+	import faqList from '../data/landing/faq/ngoFaqList';
+	import dataForTimeline from '../data/landing/ngo/dataForTimeline';
 </script>
 
 <svelte:head>
