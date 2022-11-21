@@ -1,6 +1,8 @@
 <script>
-    import { ButtonGroup, Button } from "flowbite-svelte"; 
-    import socialItingoLinks from '../../data/socialItingoLinks'
+    import { Button } from "flowbite-svelte"; 
+    import socialItingoLinks from '../data/socialItingoLinks';
+
+    let showOptionsList = false;
 </script>
 
 <div class="flex w-full justify-center relative ">
@@ -11,10 +13,12 @@
 		data-aos-once="true"
 		data-aos-mirror="true"
     style="min-height: 260px; height: auto; margin-top: -180px;" class="p-2 md:w-8/12 text-center z-2 flex lg:w-5/12 flex-col bg-viol shadow-md text-gray-500 w-11/12 rounded-lg lg:p-4 p-2 text-center">
+    
     <h5 class="mb-2 text-3xl font-bold text-white">IT wsparcie dla wspierających</h5>
     <p class="mb-5 text-base text-white sm:text-lg dark:text-gray-400">
-		  <span class="text-2xl text-lightYellow font-black">ITingo</span> to platforma internetowa, która łączy IT , wolontariuszy, organizacje pozarządowe, biznes i start-upy - w celu dostarczenia projektów IT online.
+		  <span class="text-2xl text-lightYellow font-black">ITingo</span> to platforma internetowa, która łączy IT wolontariuszy, organizacje pozarządowe, biznes i startupy - w celu dostarczenia projektów IT online.
     </p>
+    {#if !showOptionsList} 
     <div class="mb-5 pl-5 flex flex-col justify-start ">
       <h2 class="text-lg font-semibold text-left w-full mb-2 text-lg font-semibold  text-white dark:text-white">
         Jesteśmy aktywnymi członkami społeczności Open Source - w pełni otwarci i przejrzyści
@@ -47,20 +51,24 @@
           </a>
       </span> 
     </div> 
-
     <p class="mb-3 text-center  text-base text-white sm:text-lg  dark:text-gray-400 leading-tight">
       Dołącz się do naszej rodziny i zacznij zmieniać świat trzeciego sektora!
     </p>
-    <Button outline  color="yellow">Rozpocząć</Button>
-    <!-- <div class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-      <ButtonGroup>
-          <Button outline  color="yellow">Jako NGO</Button>
-          <Button outline  color="yellow">Jako startup</Button>
-          <Button outline  color="yellow">Jako biznes</Button>
-          <Button outline  color="yellow">Jako IT wolontariat</Button>
-          <Button outline  color="yellow">Jako partner lokalny</Button>
-      </ButtonGroup>
-    </div> -->
+
+    <div class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+      <Button size="xl" class="w-6/12" on:click={()=> showOptionsList = !showOptionsList} color="yellow">Rozpocząć</Button>
+    </div>
+    {:else}
+      <div class="justify-center items-center ">
+        <div class="w-6/12 flex-col justify-center items-between">
+          <Button size="xl" class="m-1" href='' color="yellow">Jako NGO</Button>
+          <Button size="xl" class="m-1" href='' color="yellow">Jako IT wolontariat</Button>
+          <Button size="xl" class="m-1" href='' color="yellow">Jako partner lokalny</Button>
+          <Button size="xl" class="m-1" href='' color="yellow">Jako startup</Button>
+          <Button size="xl" class="m-1" href='' color="yellow">Jako biznes</Button>         
+        </div>
+      </div>
+    {/if}
   </div>
 </div>
 
