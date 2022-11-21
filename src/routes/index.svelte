@@ -2,32 +2,33 @@
     import Header from '../layout/Header.svelte';
 	import BannerSection from "../layout/BannerSection.svelte";
 	import ClientsSection from '../layout/landing/ClientsSection.svelte';
-	import StepsSection from '../layout/landing/StepsSection.svelte';
-	import RegistrationBlock from "../layout/landing/RegistrationBlock.svelte";
 	import ImpactSection from '../layout/ImpactSection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
-	import ContactSection from '../layout/ContactSection.svelte';
-	import dataForTimeline from '../data/ngo/dataForTimeline';
+	import ContactSection from '../layout/ContactSection.svelte';	
 	import faqList from '../data/faq/landingFaqList';
 	import FeedbackSection from "../layout/FeedbackSection.svelte";
 	import SupportSection from '../layout/SupportSection.svelte';
 	import OurOfferSection from '../layout/OurOfferSection.svelte';
-	
-	
-
+	import WeDoForBlock from '../components/WeDoForBlock.svelte';
 </script>
-
-<Header />
 
 <svelte:head>
 	<title>ITingo - home</title>
 </svelte:head>
 
+<Header />
+
+
+
 <BannerSection bgImg='/images/landing/bg/banner_main-bg.svg'/> <!-- white -->
 
-<ClientsSection /> <!-- yellow -->
+<ClientsSection> <!-- yellow -->
+	<svelte:fragment slot="weDoFor">
+		<WeDoForBlock />
+	</svelte:fragment>
+</ClientsSection>
 
-<SupportSection /> <!-- white -->
+<SupportSection bgClass='bg-gray-200'/> <!-- white -->
 
 <ImpactSection /> <!-- viol -->
 
