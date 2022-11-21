@@ -5,7 +5,7 @@ import {ngo, bussines, startups, vols } from './clientTypes';
 
 const offertsList = [
 	{
-		title: 'IT wolontariuszy',
+		title: ['NASZE', 'WSPARCIE DLA', 'IT WOLONTARIUSZY'],
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		link: '/volunteer',
@@ -14,7 +14,7 @@ const offertsList = [
 		benefitsText: vols.listText
 	},
 	{
-		title: 'Ngo',
+		title: ['NASZE', 'WSPARCIE DLA', 'NGO'],
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		link: '/ngo',
@@ -22,15 +22,15 @@ const offertsList = [
 		reverse: true,
 		benefitsText: ngo.listText
 	},
-	{
-		title: 'IT wolontariuszy',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-		link: '/business',
-		offerList: volsBenefits,
-		reverse: false,
-		benefitsText: bussines.listText
-	}
+	// {
+	// 	title: ['NASZA', 'OFERTA ', 'DLA BIZNESU'],
+	// 	description:
+	// 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+	// 	link: '/business',
+	// 	offerList: volsBenefits,
+	// 	reverse: false,
+	// 	benefitsText: bussines.listText
+	// }
 ];
 
 
