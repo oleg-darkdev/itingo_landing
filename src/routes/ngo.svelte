@@ -1,7 +1,7 @@
 <script>
 	import Header from '../layout/Header.svelte';
 	import BannerSection from "../layout/BannerSection.svelte";
-	import StepsSection from '../layout/landing/StepsSection.svelte';
+	import StepsSection from '../layout/StepsSection.svelte';
 	import ImpactSection from '../layout/ImpactSection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
@@ -13,6 +13,7 @@
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 	import Presentation from "../components/resources/Presentation.svelte";
 	import SupportSection from '../layout/SupportSection.svelte';
+	import WeDoForBlock from '../components/WeDoForBlock.svelte';
 </script>
 
 <svelte:head>
@@ -23,17 +24,19 @@
 
 <BannerSection bgImg='/images/ngo/banner_ngo-bg.svg'/>
 
+<StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
+	<svelte:fragment slot="weDoFor">
+		<WeDoForBlock />
+	</svelte:fragment>
+</StepsSection>
+
 <ImpactSection />
 
 <Presentation />
 
 <SupportSection />
 
-<StepsSection text='Znajdz wykwalifikowanych IT wolontariuszy w 3 prostych krokach' {dataForTimeline}>
-	<!-- <svelte:fragment slot="block">
 
-	</svelte:fragment> -->
-</StepsSection>
 <FeedbackSection />
 
 <WorkBannerSection title='W czym dokładnie możemy pomóc NGO'/>
