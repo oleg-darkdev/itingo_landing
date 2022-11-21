@@ -11,7 +11,7 @@
 <slot name="title"> 
     
 </slot>
-<iframe class="lg:w-10/12 w-full rounded-xl m-12" src="{boardLink}">
+<iframe class="lg:w-10/12 w-full lg:rounded-xl md:rounded-xl lg:m-12 md:m-12 m-2" src="{boardLink}">
 
 </iframe>
 

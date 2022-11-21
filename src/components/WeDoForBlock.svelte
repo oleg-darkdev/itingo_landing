@@ -60,7 +60,7 @@
     </div>
     {:else}
       <div class="justify-center items-center ">
-        <div class="w-6/12 flex-col justify-center items-between">
+        <div class="lg:w-6/12 md:w-8/12 w-10/12 flex-col justify-center items-between">
           <Button size="xl" class="m-1" href='' color="yellow">Jako NGO</Button>
           <Button size="xl" class="m-1" href='' color="yellow">Jako IT wolontariat</Button>
           <Button size="xl" class="m-1" href='' color="yellow">Jako partner lokalny</Button>
