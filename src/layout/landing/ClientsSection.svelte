@@ -1,5 +1,5 @@
 <script>
-    import WeDoFor from './WeDoForBlock.svelte';
+    import WeDoFor from '../../components/landing/WeDoForBlock.svelte';
 	import OurClientsSection from '../../components/landing/OurClientsSection.svelte';
 </script>
 
