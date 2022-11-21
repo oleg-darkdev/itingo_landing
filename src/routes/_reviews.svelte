@@ -16,7 +16,7 @@
 
 <!-- anchor: Feedback block for volunteers -->
 
-<SupportSection />
+<SupportSection bgClass='bg-gray-200'/>
 
 <FaqSection {faqList}/>
 
