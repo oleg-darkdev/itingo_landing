@@ -193,11 +193,16 @@ const supportTypes = [
 
     
 ];
+
+ export let bgClass;
 </script>
 
   
-<section id="donate" class="bg-gray-200 w-full pb-12 pt-12 pr-2 pl-2 flex flex-col items-center ">
-<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Wspieraj <span class="text-logo-letter-spacing text-violDark text-stantley">ITingo</span> rodzinę</h2>
+<section id="donate" class="{bgClass} w-full pb-12 pt-12 pr-2 pl-2 flex flex-col items-center ">
+    <slot name="weDoFor">
+        
+    </slot>
+<h2 class="w-full mt-8 mb-4 text-center text-6xl text-violDark font-bold ">Wspieraj członków rodzinę <span class="text-logo-letter-spacing text-violDark text-stantley">ITingo</span></h2>
 {#if !active}
 <div class="flex-row flex flex-wrap justify-center">
 {#each donateTypes as support}
@@ -206,7 +211,7 @@ const supportTypes = [
     data-aos-duration="1400" 
     data-aos-once="false"
     data-aos-mirror="true"  
-    class="m-1 text-white rounded-lg border border-gray-200   flex max-w-sm flex-col">
+    class="m-1 text-white rounded-lg   flex max-w-sm flex-col">
     <img  class="rounded-t-lg" src={support.img} alt={support.title}> 
     <div class="p-4 sm:p-6 bg-viol  shadow-md rounded-lg">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{support.title}
