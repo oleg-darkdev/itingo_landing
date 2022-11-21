@@ -2,7 +2,7 @@
 	import Header from '../layout/Header.svelte';
 
 	import BannerSection from "../layout/BannerSection.svelte";
-	import StepsSection from '../layout/landing/StepsSection.svelte';
+	import StepsSection from '../layout/StepsSection.svelte';
 	import OurFamilySection from '../layout/landing/OurFamilySection.svelte';
 	import FaqSection from '../layout/FaqSection.svelte';
 	import ContactSection from '../layout/ContactSection.svelte';
@@ -16,6 +16,7 @@
 	import WorkBannerSection from '../layout/ngo/WorkBannerSection.svelte';
 	import ImpactSection from '../layout/ImpactSection.svelte';
 	import SupportSection from '../layout/SupportSection.svelte';
+	import WeDoForBlock from '../components/WeDoForBlock.svelte';
 </script>
 
 <svelte:head>
@@ -28,9 +29,9 @@
 
 <a id="start" ></a>
 <StepsSection text='Zostań wolontariuszem i rozpocznij swoją podróż w IT' {dataForTimeline}>
-	<!-- <svelte:fragment slot="block">
-
-	</svelte:fragment> -->
+	<svelte:fragment slot="weDoFor">
+		<WeDoForBlock />
+	</svelte:fragment>
 </StepsSection>
 
 <!-- <ImpactSection /> -->
