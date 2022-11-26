@@ -1,5 +1,5 @@
 <script>
-    import socialItingoLinks from '../../data/landing/socialItingoLinks';
+    import socialItingoLinks from '../../../data/landing/socialItingoLinks';
 </script>
 
 
