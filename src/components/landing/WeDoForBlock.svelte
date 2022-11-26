@@ -1,11 +1,33 @@
-<script>
+<script lang="ts">
     import { Button } from "flowbite-svelte"; 
     import socialItingoLinks from '../../data/landing/socialItingoLinks';
 
-    let showOptionsList = false;
+    let showOptionsList: boolean = false;
+    const btnList: {title: string, link: string}[] = [
+      {
+        title: 'Jako NGO',
+        link: ''
+      },
+      {
+        title: 'Jako IT wolontariat',
+        link: ''
+      },
+      {
+        title: ' Jako partner lokalny',
+        link: ''
+      },
+      {
+        title: 'Jako startup',
+        link: ''
+      },
+      {
+        title: 'Jako biznes',
+        link: ''
+      }        
+    ];
 </script>
 
-<div class="flex w-full justify-center relative ">
+<div class="flex w-full justify-center relative we-do-for-block">
   <div 
     data-aos="fade-up"
 		data-aos-delay="80"
@@ -61,11 +83,9 @@
     {:else}
       <div class="justify-center items-center ">
         <div class="lg:w-6/12 md:w-8/12 w-10/12 flex-col justify-center items-between">
-          <Button size="xl" class="m-1" href='' color="yellow">Jako NGO</Button>
-          <Button size="xl" class="m-1" href='' color="yellow">Jako IT wolontariat</Button>
-          <Button size="xl" class="m-1" href='' color="yellow">Jako partner lokalny</Button>
-          <Button size="xl" class="m-1" href='' color="yellow">Jako startup</Button>
-          <Button size="xl" class="m-1" href='' color="yellow">Jako biznes</Button>         
+          {#each btnList as btn}
+            <Button size="xl" class="m-1" href={btn.link} color="yellow">{btn.title}</Button> 
+          {/each}
         </div>
       </div>
     {/if}
@@ -73,3 +93,10 @@
 </div>
 
 
+<style>
+  @media (max-device-width: 760px) {
+    .we-do-for-block {
+      width: 380px;
+  }
+}
+</style>

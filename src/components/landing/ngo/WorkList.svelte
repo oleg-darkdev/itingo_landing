@@ -1,7 +1,11 @@
-<script>
+<script lang="ts">
     // import ListTasks from './ListTasks.svelte';
-    
-    export let dataAboutService;  
+  interface step {
+    title: string;
+    description: string[];
+  }
+
+  export let dataAboutService: step[];  
 </script>
 
 

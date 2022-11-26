@@ -1,108 +1,113 @@
-<script>
+<script lang="ts">
     
-    const voivodeshipsList = {
-        now: [
-            {
-                title: 'Pomorskie',
-                img: 'pomorskie.svg',
-                link: '',
-                towns: ['Sopot', 'Gdańsk']
-            },
-            {
-                title: 'Mazowieckie',
-                img: 'mazowieckie.svg',
-                link: '',
-                towns: ['Warszawa']
-            }
-        ],
-        onFuture: [
-            {
-                title: 'Zachodniopomorskie',
-                img: 'zachodniopomorskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Wielkopolskie',
-                img: 'wielkopolskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Warmińsko-mazurskie',
-                img: 'warmińsko_mazurskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Świętokrzyskie',
-                img: 'świętokrzyskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Śląskie',
-                img: 'śląskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Podlaskie',
-                img: 'podlaskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Podkarpackie',
-                img: 'podkarpackie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Opolskie',
-                img: 'opolskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Małopolskie',
-                img: 'małopolskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Lubuskie',
-                img: 'lubuskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Lubelskie',
-                img: 'lubelskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Łódzkie',
-                img: 'łódzkie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Kujawsko-pomorskie',
-                img: 'kujawsko_pomorskie.svg',
-                link: '',
-                towns: ['']
-            },
-            {
-                title: 'Dolnośląskie',
-                img: 'dolnośląskie.svg',
-                link: '',
-                towns: ['']
-            },
-        ],
-    };   
-    
+interface Voivodeship {
+    title: string;
+    img: string; 
+    link: string;
+    towns: string[];
+}
+
+const voivodeshipsListNow: Voivodeship[ ] = [
+    {
+        title: 'Pomorskie',
+        img: 'pomorskie.svg',
+        link: '',
+        towns: ['Sopot', 'Gdańsk']
+    },
+    {
+        title: 'Mazowieckie',
+        img: 'mazowieckie.svg',
+        link: '',
+        towns: ['Warszawa']
+    }
+];
+
+const voivodeshipsListNowFuture: Voivodeship[ ]= [
+    {
+        title: 'Zachodniopomorskie',
+        img: 'zachodniopomorskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Wielkopolskie',
+        img: 'wielkopolskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Warmińsko-mazurskie',
+        img: 'warmińsko_mazurskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Świętokrzyskie',
+        img: 'świętokrzyskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Śląskie',
+        img: 'śląskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Podlaskie',
+        img: 'podlaskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Podkarpackie',
+        img: 'podkarpackie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Opolskie',
+        img: 'opolskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Małopolskie',
+        img: 'małopolskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Lubuskie',
+        img: 'lubuskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Lubelskie',
+        img: 'lubelskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Łódzkie',
+        img: 'łódzkie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Kujawsko-pomorskie',
+        img: 'kujawsko_pomorskie.svg',
+        link: '',
+        towns: ['']
+    },
+    {
+        title: 'Dolnośląskie',
+        img: 'dolnośląskie.svg',
+        link: '',
+        towns: ['']
+    },
+];   
     
 </script>
 
@@ -116,7 +121,7 @@
         Województwa, które już otrzymały nasze wsparcie 
     </h3>
     <div class="flex flex-wrap flex-row justify-center lg:mb-8 md:mb-8 mb-4">
-        {#each voivodeshipsList.now as voivodeship}
+        {#each voivodeshipsListNow as voivodeship}
             <img class=" w-3/12 max-w-sm m-1" src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
         {/each}
     </div>
@@ -125,7 +130,7 @@
         Województwa, do których jeszcze nie dojechaliśmy
     </h3>
     <div class="flex flex-wrap flex-row justify-center lg:w-8/12 md:w-10/12 w-12/12">
-        {#each voivodeshipsList.onFuture as voivodeship}
+        {#each voivodeshipsListNowFuture as voivodeship}
             <img class="lg:w-1/12 md:w-1/12 w-2/12 max-w-sm m-1" src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
         {/each}
     </div>

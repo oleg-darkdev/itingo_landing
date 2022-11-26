@@ -1,6 +1,12 @@
 <script lang="ts">
+  interface step {
+    title: string;
+    step: string;
+    description: string[];
+  }
+
   
-  export let dataForTimeline: any;
+  export let dataForTimeline: step[];
 </script>
 
 

@@ -1,6 +1,5 @@
-<script>
-
-    export let client;
+<script lang="ts">
+    export let client: string[];
 </script>
 
 

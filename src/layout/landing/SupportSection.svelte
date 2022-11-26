@@ -217,7 +217,12 @@ const supportTypes = [
         <div class="flex-col flex">
             <h2 class="text-4xl w-full font-semibold text-gray-100 mt-8 ">{activeCategory.title}</h2>
             <p class="text-2xl  mb-4 text-gray-100 lg:w-8/12">{activeCategory.description}</p>
-            <SubCategoryCard bind:activeCategory  />
+            <div class="flex-row flex flex-wrap justify-center  mb-6">
+                {#each activeCategory.donateTypes as support}
+                    <SubCategoryCard {support} />
+                {/each}
+            </div>
+
         </div>
     </div>
 {/if}

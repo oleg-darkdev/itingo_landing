@@ -1,9 +1,7 @@
-<script>
+<script lang="ts">
     import { Button } from 'flowbite-svelte';
-
     
-    export let support, activeCategory;
-    
+    export let support: {link: string, title: string, description: string, animation: string, img: string, value: any}, activeCategory: any;    
 </script>
 
 

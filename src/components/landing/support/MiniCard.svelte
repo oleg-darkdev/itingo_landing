@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let support;
+    export let support: {link: string, title: string, description: string};
 </script>
 
 

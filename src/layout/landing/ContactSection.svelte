@@ -18,15 +18,8 @@
 		<p class="m-2 font-bold text-center w-8/12 leading-tight mb-2 text-white">
 			Być może znajdziesz tam odpowiedź na swoje pytanie.
 		</p>
-		<!-- <div class="p-0 m-0" 
-		data-aos="zoom-in-up"
-		data-aos-delay="100"
-		data-aos-duration="1000" 
-		data-aos-once="false"
-		data-aos-mirror="true"> -->
 		<SocialMedia />
 		<MailContact />
-		<!-- </div> -->
 		<Coordinator />
 	</div>
 

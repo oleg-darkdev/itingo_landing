@@ -17,9 +17,7 @@
 
 
 <style>
-    
-
-	.visite-card-wrap {
+    .visite-card-wrap {
 		min-height: 510px;
 		min-width: 280px;
 		

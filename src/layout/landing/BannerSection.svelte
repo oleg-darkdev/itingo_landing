@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     // import HelloSection from './main/HelloSection.svelte';
     import SocialMedia from "./contact/SocialMedia.svelte";
 
-	export let bgImg;
+	export let bgImg: string;
 </script>
 
 
