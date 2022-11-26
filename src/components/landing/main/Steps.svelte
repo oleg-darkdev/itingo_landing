@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
   
-  export let dataForTimeline;
+  export let dataForTimeline: any;
 </script>
 
 
