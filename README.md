@@ -1,6 +1,18 @@
 
-# Alternatywy 5 - Dom Sąsiedzki
+# Itingo - IT wsparcie dla wspierających
 
+
+
+
+
+## Core technologies
  * [SvelteKit](https://kit.svelte.dev/)
  * [Flowbite-svelte ](https://flowbite-svelte.com/)
- * [Svelte-Heros-V2 icons](https://github.com/shinokada/svelte-heros-v2/blob/main/icon-list.md)
+ * [Typescript](https://www.typescriptlang.org/docs/)
+ * [MongoDB](https://www.mongodb.com/)
+ * [Storybook](https://storybook.js.org/)
+ * []()
+ * []()
+ * []()
+ * []()
+ * []()
