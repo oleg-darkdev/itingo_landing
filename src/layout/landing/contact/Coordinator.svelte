@@ -8,7 +8,7 @@
 		data-aos-once="false"
 		data-aos-mirror="true"
      class="flex max-w-sm flex-col  dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg  dark:border-gray-700">
-  <img class="rounded-t-lg" src="/images/family/coordinator.png" alt=""> 
+  <img loading="lazy" class="rounded-t-lg" src="/images/family/coordinator.png" alt=""> 
   <div class="p-6 rounded bg-lightYellow">
     <h5 class="mb-1 text-2xl font-bold text-center tracking-tight text-viol">
       Koordynator projektu

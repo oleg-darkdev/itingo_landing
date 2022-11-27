@@ -42,7 +42,7 @@ const workspaceTypes = [
   {#each workspaceTypes as type}
   <a href={type.link}>
   <div class="m-1 bg-white dark:bg-gray-800 text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex max-w-sm flex-col">
-    <img  class="rounded-t-lg" src={type.img} alt={type.title}> 
+    <img loading="lazy"  class="rounded-t-lg" src={type.img} alt={type.title}> 
     <div class="p-4 sm:p-6 bg-viol rounded-lg">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{type.title}
       </h5> 

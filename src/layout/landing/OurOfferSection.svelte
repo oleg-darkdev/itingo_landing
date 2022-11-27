@@ -21,7 +21,7 @@
 		<div style="max-width: 900px;" class="flex flex-row flex-wrap p-2 rounded-lg  bg-violDark w-full flex-wrap justify-center content-center">
 			{#each offerData.offerList as offer}
 				<a class="hover:bg-lightYellow rounded-lg m-2 p-1" href={offerData.link + '#' + offer.anchor}>
-					<img alt={offer.title} src={'/images' + offerData.link + '/benefits/mini/' + offer.miniImg} class="text-lightYellow rounded-lg border border-lightYellow lg:w-60 md:w-60 md:h-60 w-40 h-40">
+					<img loading="lazy" alt={offer.title} src={'/images' + offerData.link + '/benefits/mini/' + offer.miniImg} class="text-lightYellow rounded-lg border border-lightYellow lg:w-60 md:w-60 md:h-60 w-40 h-40">
 				</a>
 			{/each}
 		</div>

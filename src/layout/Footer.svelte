@@ -221,11 +221,11 @@
     </h2> 
     <div class="flex flex-col">
         <a href={ourFamily.sponsors.generalSponsor.link}>
-          <img style="width: 300px;" class="logo-partners" src={ourFamily.sponsors.generalSponsor.logo} alt={ourFamily.sponsors.generalSponsor.title}>
+          <img loading="lazy"  style="width: 300px;" class="logo-partners" src={ourFamily.sponsors.generalSponsor.logo} alt={ourFamily.sponsors.generalSponsor.title}>
         </a>
       {#each ourFamily.partners.technicalPartners as technicalPartner}
       <a href={technicalPartner.link}>
-        <img style="width: 300px;" class="logo-partners" src={technicalPartner.logo} alt={technicalPartner.title}>
+        <img loading="lazy"  style="width: 300px;" class="logo-partners" src={technicalPartner.logo} alt={technicalPartner.title}>
       </a>
       {/each}
 
@@ -239,7 +239,7 @@
 </div> 
 <div class="py-6 px-4 bg-violDark md:flex md:items-center md:justify-between">
     <div class="flex flex-row">
-       <img src="/images/resources/logo_white.svg" class="mt-1 h-6 sm:h-9" alt="ITingo Logo"/>
+       <img loading="lazy" src="/images/resources/logo_white.svg" class="mt-1 h-6 sm:h-9" alt="ITingo Logo"/>
         <span class="self-center whitespace-nowrap lg:text-5xl md:text-4xl  text-3xl   text-lightYellow text-stantley">
           ITingo
        </span>

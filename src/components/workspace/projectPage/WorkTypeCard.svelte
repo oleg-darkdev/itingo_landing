@@ -3,7 +3,7 @@
 </script>
 
 <div style="" class="bg-white lg:m-4 m-1 mb-4 h-auto rounded-lg  shadow-lg flex lg:w-3/12 md:w-5/12 w-full flex-col">
-  <img class="rounded-t-lg" src="{workTask.bgImage}" alt="{workTask.title}"> 
+  <img loading="lazy"  class="rounded-t-lg" src="{workTask.bgImage}" alt="{workTask.title}"> 
   <div style="min-height: 270px;" class="p-4 sm:p-6 bg-viol rounded-lg ">
       <h2 class="text-lg text-2xl font-semibold text-white dark:text-white w-full mb-2 text-lg font-semibold  text-white dark:text-white">
         {workTask.title}

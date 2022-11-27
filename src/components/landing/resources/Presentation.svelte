@@ -6,7 +6,7 @@
 <section style="height: auto; min-height: 450px;" class="flex flex-coll w-full flex-wrap lg:p-20 pt-6 pb-6 pr-2 pl-2">
 	<h2 style="max-height: 100px;" class="w-full text-center lg:text-6xl md:text-6xl text-4xl text-viol font-black mb-4">Prezentacja dla NGO</h2>
 
-	<iframe 
+	<iframe loading="lazy"
 		    data-aos="flip-up"
 		data-aos-delay="80"
 		data-aos-duration="800" 

@@ -122,7 +122,7 @@ const voivodeshipsListNowFuture: Voivodeship[ ]= [
     </h3>
     <div class="flex flex-wrap flex-row justify-center lg:mb-8 md:mb-8 mb-4">
         {#each voivodeshipsListNow as voivodeship}
-            <img class=" w-3/12 max-w-sm m-1" src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
+            <img class=" w-3/12 max-w-sm m-1" loading="lazy"   src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
         {/each}
     </div>
 
@@ -131,7 +131,7 @@ const voivodeshipsListNowFuture: Voivodeship[ ]= [
     </h3>
     <div class="flex flex-wrap flex-row justify-center lg:w-8/12 md:w-10/12 w-12/12">
         {#each voivodeshipsListNowFuture as voivodeship}
-            <img class="lg:w-1/12 md:w-1/12 w-2/12 max-w-sm m-1" src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
+            <img class="lg:w-1/12 md:w-1/12 w-2/12 max-w-sm m-1" loading="lazy" src="./images/clients/poland_voivodeships/{voivodeship.img}" alt={voivodeship.title}/> 
         {/each}
     </div>
 </div>

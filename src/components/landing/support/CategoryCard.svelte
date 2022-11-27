@@ -11,7 +11,7 @@
     data-aos-once="false"
     data-aos-mirror="true"  
     class="m-1 text-white rounded-lg   flex max-w-sm flex-col">
-    <img  class="rounded-t-lg" src={support.img} alt={support.title}> 
+    <img loading="lazy"  class="rounded-t-lg" src={support.img} alt={support.title}> 
     <div class="p-4 sm:p-6 bg-viol  shadow-md rounded-lg">
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">{support.title}
       </h5> 

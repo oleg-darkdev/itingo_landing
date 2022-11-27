@@ -17,7 +17,7 @@
 
 		style="min-height: 410px; height: auto; max-height: 650px;" class="m-2 lg:m-10 md:m-2 md:mt-6 sm:m-2  flex max-w-sm flex-col bg-white dark:bg-gray-800 shadow-md text-gray-500 dark:text-gray-400 rounded-lg border border-gray-200 dark:border-gray-700 p-0">
 			<a href={client.link}>
-				<img class="p-8 rounded-t-lg" src={client.img} alt={client.alt} />
+				<img loading="lazy" class="p-8 rounded-t-lg" src={client.img} alt={client.alt} />
 			</a>
 		<div class="px-5 pb-5">
 			<a href={client.link}>

@@ -6,7 +6,7 @@
 
 
 <div class="m-2 bg-lightYellow  rounded-lg border border-gray-200 dark:border-gray-700 shadow-md flex max-w-sm flex-col">
-    <img class="rounded-t-lg" src={support.img} alt=""> 
+    <img loading="lazy"  class="rounded-t-lg" src={support.img} alt=""> 
     <div class="p-4 sm:p-6">
         <div class="flex items-baseline text-violDark">
             <span class="text-5xl font-extrabold tracking-tight">{support.value}</span>

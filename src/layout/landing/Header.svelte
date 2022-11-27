@@ -6,7 +6,7 @@
 
 <Navbar class="bg-viol" let:hidden let:toggle>
   <NavBrand href="/">
-    <img src="/images/resources/logo_white.svg" class=" h-10 " alt="ITingo Logo"/>
+    <img loading="lazy" src="/images/resources/logo_white.svg" class=" h-10 " alt="ITingo Logo"/>
     <span class="self-center whitespace-nowrap lg:text-5xl md:text-4xl  text-3xl   text-lightYellow text-stantley">
       ITingo
     </span>
@@ -70,6 +70,12 @@
                 Roadmap
               </button>
             </li> 
+            <li class="">
+              <button onclick="window.location='/about#sitemap';"  class="font-medium py-2 px-4 text-sm hover:bg-viol text-violDark hover:text-lightYellow w-full text-left">
+                Sitemap
+              </button>
+            </li> 
+            
             <li class="">
               <button onclick="window.location='/resources';"  class="font-medium py-2 px-4 text-sm hover:bg-viol text-violDark hover:text-lightYellow w-full text-left">
                 Materiały do pobrania

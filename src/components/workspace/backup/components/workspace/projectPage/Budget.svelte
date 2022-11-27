@@ -15,7 +15,7 @@
         <div class="mb-6 flex-row flex flex-wrap">
             {#each report.sponsors as sponsor}
                 <a href={sponsor.link}>
-                    <img style="width: 300px; " class="logo-partners" src={sponsor.logo} alt={sponsor.title}>
+                    <img loading="lazy" style="width: 300px; " class="logo-partners" src={sponsor.logo} alt={sponsor.title}>
                 </a>
             {/each}
         </div>
@@ -27,7 +27,7 @@
         <div class="flex-col flex flex-wrap justify-center">
             {#each report.partners as partner}
                 <a href={partner.link}>
-                    <img style="width: 200px;" class="logo-partners" src={partner.logo} alt={partner.title}>
+                    <img loading="lazy" style="width: 200px;" class="logo-partners" src={partner.logo} alt={partner.title}>
                 </a>
             {/each}
         </div>

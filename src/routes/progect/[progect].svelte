@@ -124,7 +124,7 @@
         </h3> 
         <div class="flex-row flex flex-wrap">
             <a href={progect._report.generalSponsor.link}>
-                <img style="width: 400px; " class="logo-partners" src={progect._report.generalSponsor.logo} alt={progect._report.generalSponsor.title}>
+                <img loading="lazy" style="width: 400px; " class="logo-partners" src={progect._report.generalSponsor.logo} alt={progect._report.generalSponsor.title}>
             </a>
         </div>
     </div>
