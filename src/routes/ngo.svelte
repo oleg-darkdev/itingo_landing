@@ -38,7 +38,7 @@
 <SupportSection />
 
 
-<FeedbackSection />
+<!-- <FeedbackSection /> -->
 
 <WorkBannerSection title='W czym dokładnie możemy pomóc NGO'/>
 

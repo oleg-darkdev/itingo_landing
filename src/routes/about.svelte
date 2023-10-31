@@ -38,7 +38,7 @@
 <WeDoForBlock />
 
 <a id="feedback"></a>
-<FeedbackSection />
+<!-- <FeedbackSection /> -->
 
 <a id="manifest"></a>
 <a id="philosophy"></a>

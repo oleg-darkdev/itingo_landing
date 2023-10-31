@@ -58,7 +58,7 @@
 
 <OurFamilySection />
 
-<FeedbackSection />
+<!-- <FeedbackSection /> -->
 
 <a id="faq" ></a>
 <FaqSection itle='Pytania i odpowiedzi dla wolontariuszy' bgImgClass='faq-bg-volunteers' {faqList}/>
